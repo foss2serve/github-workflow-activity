@@ -1,24 +1,12 @@
-Before Event
-============
+Participants need to come with a laptop with git pre-installed. For Windows we
+recommend Git for Windows [1]. For Linux, git should be available through your
+package manager. For OS X, consider first installing a package manager, like
+Homebrew [2], then use it to install git.
 
-Download and install git, bash, and vim
----------------------------------------
+[1] Git for Windows. <https://git-for-windows.github.io/>. Accessed November
+2015. [2] Homebrew. <http://brew.sh/>. Accessed November 2015.
 
-The git activity assumes that you are using git from a bash shell, and git is
-configured to use vi as its default editor. The instructions below will get you
-a reasonable approximation of this configuration. If you know what you are doing
-you may deviate from this configuration.
-
-__Windows__: Download and install Git for Windows. This will give you a basic
-Linux-like environment including bash, vim, and git. Stick to defaults unless
-you have strong opinion otherwise, and you know what you are doing.
-
-__OSX__: Bash is built into Terminal.app. To install vim and git, first
-install homebrew and then use homebrew to install vim and git:
-
-    $ brew install vim git
-
-__Linux__: Most popular Linux distributions default to bash. Install vim and git
-using your package manager:
-
-    $ sudo apt-get install git
+Before the event, please install git and ssh on your system. Please make sure
+that git can be ran from the command-line. Windows users can get the needed
+software by downloading and installing [Git for Windows
+(https://git-for-windows.github.io/)](https://git-for-windows.github.io/).
