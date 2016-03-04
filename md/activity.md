@@ -112,7 +112,7 @@ Run `git status` before and after each of these commands.
 1. What does `git add names.txt` do?
     <textarea name="q11"></textarea>
 
-1. What does `git commit -m'Add our names.'` do?
+1. What does `git commit -m "Add our names."` do?
     <textarea name="q12"></textarea>
 
 1. What does `git log do`?
