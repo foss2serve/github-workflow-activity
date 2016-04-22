@@ -72,7 +72,7 @@ $ git checkout -b <BRANCH_NAME>                         (5)
 $ vim file1                                             (6)
 $ rm file2                                              (7)
 $ mv file3 file4                                        (8)
-$ git add -A                                            (9)
+$ git add .                                            (9)
 $ git commit -v                                        (10)
 $ git push -u origin <BRANCH_NAME>                     (11)
 ### Use GitHub to open a pull request                  (12)
@@ -91,7 +91,7 @@ changes you like using whatever tools you like.
 
 ```bash
 $ vim file4                                            (14)
-$ git add -A                                           (15)
+$ git add .                                           (15)
 $ git commit -v                                        (16)
 $ git push origin <BRANCH_NAME>                        (17)
 ```
@@ -120,7 +120,7 @@ you like using whatever tools you like.
 $ git fetch upstream master:master                     (18)
 $ git rebase master                                    (19)
 $ vim file1                                            (20)
-$ git add -A                                           (21)
+$ git add .                                           (21)
 $ git rebase --continue                                (22)
 $ git push -f origin master <BRANCH_NAME>              (23)
 ```
