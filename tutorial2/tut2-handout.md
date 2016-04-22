@@ -64,6 +64,9 @@ are trying to do and give you feedback early. That way, if you are on the wrong
 track or the maintainer is not interested in your idea, you can find out before
 you waste too much time implementing your idea.
 
+Lines (6-8) are just an example of changes you might make. Instead, make any
+changes you like using any tool you like.
+
 ```bash
 $ git checkout -b <BRANCH_NAME>                         (5)
 $ vim file1                                             (6)
@@ -82,6 +85,9 @@ Keep working on your idea, committing and publishing your work as you go
 (14-17). The pull-request will automatically be updated with the new commits you
 push to your repository on GitHub, allowing the maintainer to follow your
 progress as you go.
+
+Again, line (14) is just an example of a change you might make. Make whatever
+changes you like using whatever tools you like.
 
 ```bash
 $ vim file4                                            (14)
@@ -106,6 +112,9 @@ not become too stale.
 
 Again, as you push your work to your repository on GitHub, the pull-request
 is updated automatically.
+
+Line (20) is just an example of a change you might make. Make whatever changes
+you like using whatever tools you like.
 
 ```bash
 $ git fetch upstream master:master                     (18)
