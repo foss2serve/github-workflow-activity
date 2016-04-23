@@ -1,3 +1,5 @@
+# A Single Contributor Workflow
+
 ### Prerequisites
 
 - You have a GitHub account and you know your username and password. If you
