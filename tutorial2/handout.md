@@ -8,7 +8,7 @@
 - You know how to open a terminal and generally work from the command-line.
 - You know enough of vi or vim to edit, move around in, save, and quit files.
 
-### Contribution Workflow Overview
+### Workflow Overview
 
 The workflow description below covers the typical operations in the order
 they are often performed to develop and contribute work to another project.
@@ -36,6 +36,11 @@ you are working on. A list of these placeholders and their meaning is below:
   related to the bug your are fixing or the feature you are implementing.
   Whatever you choose, use the same branch name throughout the example.
 
+Also note, lines marked with `*` represent modifications being made to files in
+the project. The exact modifications you might make, and the tools that you use
+to make them, depend on what you are trying to do and your preferences. In
+short, these lines should not be typed in literally, but must be interpreted in
+terms of the task you are performing.
 
 ### Setup: (1-4)
 
@@ -66,14 +71,14 @@ are trying to do and give you feedback early. That way, if you are on the wrong
 track or the maintainer is not interested in your idea, you can find out before
 you waste too much time implementing your idea.
 
-Lines (6-8) are just an example of changes you might make. Instead, make any
-changes you like using any tool you like.
+Also, remember, lines (6-8) are marked with `*`, so must be interpreted for the
+task you are performing.
 
 ```bash
 $ git checkout -b <BRANCH_NAME>                         (5)
-$ vim file1                                             (6)
-$ rm file2                                              (7)
-$ mv file3 file4                                        (8)
+$ vim file1                                            (*6)
+$ rm file2                                             (*7)
+$ mv file3 file4                                       (*8)
 $ git add .                                             (9)
 $ git commit -v                                        (10)
 $ git push -u origin <BRANCH_NAME>                     (11)
@@ -88,11 +93,11 @@ Keep working on your idea, committing and publishing your work as you go
 push to your repository on GitHub, allowing the maintainer to follow your
 progress as you go.
 
-Again, line (14) is just an example of a change you might make. Make whatever
-changes you like using whatever tools you like.
+Also, remember, lines (14) is marked with `*`, so must be interpreted for the
+task you are performing.
 
 ```bash
-$ vim file4                                            (14)
+$ vim file4                                           (*14)
 $ git add .                                            (15)
 $ git commit -v                                        (16)
 $ git push origin <BRANCH_NAME>                        (17)
@@ -115,13 +120,14 @@ not become too stale.
 Again, as you push your work to your repository on GitHub, the pull-request
 is updated automatically.
 
-Line (20) is just an example of a change you might make. Make whatever changes
-you like using whatever tools you like.
+Also, remember, lines (20) is marked with `*`, so must be interpreted for the
+task you are performing.
+
 
 ```bash
 $ git fetch upstream master:master                     (18)
 $ git rebase master                                    (19)
-$ vim file1                                            (20)
+$ vim file1                                           (*20)
 $ git add .                                            (21)
 $ git rebase --continue                                (22)
 $ git push -f origin master <BRANCH_NAME>              (23)
