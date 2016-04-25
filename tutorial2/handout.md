@@ -10,8 +10,8 @@
 
 ### Contribution Workflow Overview
 
-The workflow described below provides the typically operations and the order
-they are usually performed in to develop and contribute work to another project.
+The workflow description below covers the typical operations in the order
+they are often performed to develop and contribute work to another project.
 Most of the operations are issued from the command-line. These lines start with `$`.
 Do not type `$`. This is the prompt that the command-line displays to you to
 indicate that it is ready for you to type a command. Lines that start with `###`
@@ -19,7 +19,7 @@ are performed using GitHub through a browser. The numbers at the end of each
 line will be used in later sections to refer back to specific lines; do not type
 these either. When you see a term in all capital letters surrounded by angle
 brackets, e.g., `<MY_URL>`, replace it with a value appropriate to the project
-you are working on. A list of these placeholders and their meaning are below:
+you are working on. A list of these placeholders and their meaning is below:
 
 - `<MY_URL>` - The URL to your GitHub hosted repository. To find it, navigate to
   your repository on GitHub and to the right of the green "New Pull Request"
