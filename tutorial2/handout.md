@@ -6,13 +6,13 @@
   don't have one, create one now.
 - You have Git 2+ installed and configured.
 - You know how to open a terminal and generally work from the command-line.
-- You know enough of vi/m to edit, move around in, save, and quit files.
+- You know enough of vi or vim to edit, move around in, save, and quit files.
 
 ### Contribution Workflow Overview
 
 The workflow description below covers the typical operations in the order
 they are often performed to develop and contribute work to another project.
-Most of the operations are issued from the command-line. These lines start with `$`.
+Most of the operations are issued from the command-line. These lines start with`$`.
 Do not type `$`. This is the prompt that the command-line displays to you to
 indicate that it is ready for you to type a command. Lines that start with `###`
 are performed using GitHub through a browser. The numbers at the end of each
@@ -74,7 +74,7 @@ $ git checkout -b <BRANCH_NAME>                         (5)
 $ vim file1                                             (6)
 $ rm file2                                              (7)
 $ mv file3 file4                                        (8)
-$ git add .                                            (9)
+$ git add .                                             (9)
 $ git commit -v                                        (10)
 $ git push -u origin <BRANCH_NAME>                     (11)
 ### Use GitHub to open a pull request                  (12)
@@ -93,7 +93,7 @@ changes you like using whatever tools you like.
 
 ```bash
 $ vim file4                                            (14)
-$ git add .                                           (15)
+$ git add .                                            (15)
 $ git commit -v                                        (16)
 $ git push origin <BRANCH_NAME>                        (17)
 ```
@@ -122,7 +122,7 @@ you like using whatever tools you like.
 $ git fetch upstream master:master                     (18)
 $ git rebase master                                    (19)
 $ vim file1                                            (20)
-$ git add .                                           (21)
+$ git add .                                            (21)
 $ git rebase --continue                                (22)
 $ git push -f origin master <BRANCH_NAME>              (23)
 ```
