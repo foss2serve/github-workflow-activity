@@ -1,22 +1,25 @@
+# A Single Contributor Workflow
+
 ### Prerequisites
 
-- You have a GitHub account and you know your username and password. If you don't have one, create one now.
+- You have a GitHub account and you know your username and password. If you
+  don't have one, create one now.
 - You have Git 2+ installed and configured.
 - You know how to open a terminal and generally work from the command-line.
-- You know enough of vi/m to edit, move around in, save, and quit files.
+- You know enough of vi or vim to edit, move around in, save, and quit files.
 
-### Contribution Workflow Overview
+### Workflow Overview
 
-The workflow described below provides the typically operations and the order they are usually
-performed in to develop and contribute work to another project. Most of the
-operations are issued from the command-line. These lines start with `$`. Do not
-type `$`. This is the prompt that the command-line displays to you to indicate
-that it is ready for you to type a command. Lines that start with `###` are
-performed using GitHub through a browser. The numbers at the end of each line
-will be used in later sections to refer back to specific lines; do not type
+The workflow description below covers the typical operations in the order
+they are often performed to develop and contribute work to another project.
+Most of the operations are issued from the command-line. These lines start with`$`.
+Do not type `$`. This is the prompt that the command-line displays to you to
+indicate that it is ready for you to type a command. Lines that start with `###`
+are performed using GitHub through a browser. The numbers at the end of each
+line will be used in later sections to refer back to specific lines; do not type
 these either. When you see a term in all capital letters surrounded by angle
 brackets, e.g., `<MY_URL>`, replace it with a value appropriate to the project
-you are working on. A list of these placeholders and their meaning are below:
+you are working on. A list of these placeholders and their meaning is below:
 
 - `<MY_URL>` - The URL to your GitHub hosted repository. To find it, navigate to
   your repository on GitHub and to the right of the green "New Pull Request"
@@ -33,8 +36,19 @@ you are working on. A list of these placeholders and their meaning are below:
   related to the bug your are fixing or the feature you are implementing.
   Whatever you choose, use the same branch name throughout the example.
 
+Also note, lines marked with `*` represent modifications being made to files in
+the project. The exact modifications you might make, and the tools that you use
+to make them, depend on what you are trying to do and your preferences. In
+short, these lines should not be typed in literally, but must be interpreted in
+terms of the task you are performing.
 
 ### Setup: (1-4)
+
+When you first start working on a project, you'll need to fork their project
+(1), clone your fork locally (2-3), and create a remote back to their project in
+your local repository (4). Once you've done this setup for a project, you will
+not need to do it again unless you delete the fork, your local clone, or the
+remote.
 
 ```bash
 ### Use GitHub to fork their repository.                (1)
@@ -43,25 +57,8 @@ $ cd <DIR>                                              (3)
 $ git remote add upstream <THEIR_URL>                   (4)
 ```
 
-When you first start working on a project, you'll need to fork their project
-(1), clone your fork locally (2-3), and create a remote back to their project in
-your local repository (4). Once you've done this setup for a project, you will
-not need to do it again unless you delete the fork, your local clone, or the
-remote.
 
 ### Starting your contribution: (5-13)
-
-```bash
-$ git checkout -b <BRANCH_NAME>                         (5)
-$ vim file1                                             (6)
-$ rm file2                                              (7)
-$ mv file3 file4                                        (8)
-$ git add -A                                            (9)
-$ git commit -v                                        (10)
-$ git push -u origin <BRANCH_NAME>                     (11)
-### Use GitHub to open a pull request                  (12)
-### from <BRANCH_NAME> in yours to master on theirs.   (13)
-```
 
 When you start working on a contribution, you need to create a branch to hold
 your work (5), do a little work and commit it (6-10), push your new branch to
@@ -74,30 +71,39 @@ are trying to do and give you feedback early. That way, if you are on the wrong
 track or the maintainer is not interested in your idea, you can find out before
 you waste too much time implementing your idea.
 
-### Work (14-17)
+Also, remember, lines (6-8) are marked with `*`, so must be interpreted for the
+task you are performing.
 
 ```bash
-$ vim file4                                            (14)
-$ git add -A                                           (15)
-$ git commit -v                                        (16)
-$ git push origin <BRANCH_NAME>                        (17)
+$ git checkout -b <BRANCH_NAME>                         (5)
+$ vim file1                                            (*6)
+$ rm file2                                             (*7)
+$ mv file3 file4                                       (*8)
+$ git add .                                             (9)
+$ git commit -v                                        (10)
+$ git push -u origin <BRANCH_NAME>                     (11)
+### Use GitHub to open a pull request                  (12)
+### from <BRANCH_NAME> in yours to master on theirs.   (13)
 ```
+
+### Work (14-17)
 
 Keep working on your idea, committing and publishing your work as you go
 (14-17). The pull-request will automatically be updated with the new commits you
 push to your repository on GitHub, allowing the maintainer to follow your
 progress as you go.
 
-### Keep your repositories up-to-date (18-23)
+Also, remember, lines (14) is marked with `*`, so must be interpreted for the
+task you are performing.
 
 ```bash
-$ git fetch upstream master:master                     (18)
-$ git rebase master                                    (19)
-$ vim file1                                            (20)
-$ git add -A                                           (21)
-$ git rebase --continue                                (22)
-$ git push -f origin master <BRANCH_NAME>              (23)
+$ vim file4                                           (*14)
+$ git add .                                            (15)
+$ git commit -v                                        (16)
+$ git push origin <BRANCH_NAME>                        (17)
 ```
+
+### Keep your repositories up-to-date (18-23)
 
 While you are working on your idea, the maintainer may have accepted work from
 other contributors. As that happens, the project's master branch will contain
@@ -114,13 +120,21 @@ not become too stale.
 Again, as you push your work to your repository on GitHub, the pull-request
 is updated automatically.
 
+Also, remember, lines (20) is marked with `*`, so must be interpreted for the
+task you are performing.
+
+
+```bash
+$ git fetch upstream master:master                     (18)
+$ git rebase master                                    (19)
+$ vim file1                                           (*20)
+$ git add .                                            (21)
+$ git rebase --continue                                (22)
+$ git push -f origin master <BRANCH_NAME>              (23)
+```
 
 ### Squash your commits (24-25)
 
-```bash
-$ git rebase -i master                                 (24)
-$ git push -f origin <BRANCH_NAME>                     (25)
-```
 
 If you are following best practices, you will make many small commits as you
 develop your idea. Sometimes earlier commits are invalidated/corrected by later
@@ -149,39 +163,45 @@ relatively easy.
 
 GitHub has a nice article on interactive rebases [2].
 
+```bash
+$ git rebase -i master                                 (24)
+$ git push -f origin <BRANCH_NAME>                     (25)
+```
+
 ### Maintainer accepts your pull-request (26)
+
+
+After all your hard work, hopefully the maintainer will eventually accept your
+pull-request, which will merge your changes into their master branch.
 
 ```bash
 ### Maintainer accepts your pull-request               (26)
 ```
 
-After all your hard work, hopefully the maintainer will eventually accept your
-pull-request, which will merge your changes into their master branch.
-
 ### Update your master (27-28)
-
-```bash
-$ git fetch upstream master:master                     (27)
-$ git push origin master                               (28)
-```
 
 After the maintainer has accepted your pull-request, your need to update your
 master with the new changes in upstream, which are yours (27-28)! You follow the
 same procedure as in "Keeping your repositories up-to-date", except that you
 don't  need to rebase. That's because your work is already included in master.
 
+```bash
+$ git fetch upstream master:master                     (27)
+$ git push origin master                               (28)
+```
+
 ### Delete unneeded branches (29-30)
+
+Now that your work has been accepted in upstream, you can safely delete the
+branches you were working on (29-30). If you ever abandon your effort before
+a pull-request is accepted, you can also delete your branch; but you'll need
+to use -D (capital D) in (29).
 
 ```bash
 $ git checkout master                                  (29)
 $ git branch -d <BRANCH_NAME>                          (30)
 $ git push origin :<BRANCH_NAME>                       (31)
 ```
-
-Now that your work has been accepted in upstream, you can safely delete the
-branches you were working on (29-30). If you ever abandon your effort before
-a pull-request is accepted, you can also delete your branch; but you'll need
-to use -D (capital D) in (29).
 
 ### References
 
