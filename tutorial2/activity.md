@@ -18,10 +18,13 @@ words, the computers should be associated with the rolls. This might mean that
 the owner of the computer may have to enter his/her password for GitHub
 occasionally.
 
-## Setup
+## Setup the project
 
 - Help your maintainer to create a new project on GitHub named `favorites`.
-- Help your contributors to follow _Setup: (1-4)_ to prepare their local repositories.
+
+## Contributor-1 setup
+
+- Help Contributor-1 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
 
 ## First contribution
 
@@ -30,12 +33,13 @@ occasionally.
   favorite foods.
 - Help the maintainer to accept contributor-1's pull-request on GitHub.
 - Help contributor-1 to follow _Update your master (27-28)_ and
-  _Delete unneeded branches (29-30)_ to clean up.
+  _Delete unneeded branches (29-31)_ to clean up.
 
 Congratulations, your team has made its first contribution! Celebrate.
 
-## Second contribution
+## Contributor-2 setup and second contribution
 
+- Help Contributor-2 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
 - Repeat the steps above to have contributor-2 contribute a new file
   `favorite-movies.txt` with a couple of his/her favorite movies.
 - Make sure that the maintainer has accepted contributor-2's pull-request and

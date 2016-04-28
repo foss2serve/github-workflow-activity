@@ -190,7 +190,7 @@ $ git fetch upstream master:master                     (27)
 $ git push origin master                               (28)
 ```
 
-### Delete unneeded branches (29-30)
+### Delete unneeded branches (29-31)
 
 Now that your work has been accepted in upstream, you can safely delete the
 branches you were working on (29-30). If you ever abandon your effort before
