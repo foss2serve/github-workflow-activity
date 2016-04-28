@@ -1,3 +1,15 @@
+# Activity: A Common Workflow to Contribute to HFOSS
+
+This and other materials are available here:
+https://github.com/StoneyJackson/git-ccscne-2016 .
+
+## Copyright and Licensing
+
+Copyright 2016, Darci Burdge and Stoney Jackson
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/ .
 
 ## Form teams
 
@@ -17,6 +29,13 @@ contributors. If you do switch rolls, physically switch computers. In other
 words, the computers should be associated with the rolls. This might mean that
 the owner of the computer may have to enter his/her password for GitHub
 occasionally.
+
+## Overview
+
+In this activity your team will play out several scenarios following steps
+described in _Guide: A Common Workflow to Contribute to HFOSS_. This document is
+available here:
+https://github.com/StoneyJackson/git-ccscne-2016/tutorial2/workflow-guide.md
 
 ## Setup the project
 

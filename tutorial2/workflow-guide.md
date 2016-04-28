@@ -1,6 +1,18 @@
-# A Single Contributor Workflow
+# Guide: A Common Workflow to Contribute to HFOSS
 
-### Prerequisites
+his and other materials are available here:
+https://github.com/StoneyJackson/git-ccscne-2016 .
+
+## Copyright and Licensing
+
+Copyright 2016, Darci Burdge and Stoney Jackson
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/ .
+
+
+## Prerequisites
 
 - You have a GitHub account and you know your username and password. If you
   don't have one, create one now.
@@ -8,7 +20,7 @@
 - You know how to open a terminal and generally work from the command-line.
 - You know enough of vi or vim to edit, move around in, save, and quit files.
 
-### Workflow Overview
+## Workflow Overview
 
 The workflow description below covers the typical operations in the order
 they are often performed to develop and contribute work to another project.
@@ -42,7 +54,7 @@ to make them, depend on what you are trying to do and your preferences. In
 short, these lines should not be typed in literally, but must be interpreted in
 terms of the task you are performing.
 
-### Setup: (1-4)
+## Setup: (1-4)
 
 When you first start working on a project, you'll need to fork their project
 (1), clone your fork locally (2-3), and create a remote back to their project in
@@ -58,7 +70,7 @@ $ git remote add upstream <THEIR_URL>                   (4)
 ```
 
 
-### Starting your contribution: (5-13)
+## Starting your contribution: (5-13)
 
 When you start working on a contribution, you need to create a branch to hold
 your work (5), do a little work and commit it (6-10), push your new branch to
@@ -86,7 +98,7 @@ $ git push -u origin <BRANCH_NAME>                     (11)
 ### from <BRANCH_NAME> in yours to master on theirs.   (13)
 ```
 
-### Work (14-17)
+## Work (14-17)
 
 Keep working on your idea, committing and publishing your work as you go
 (14-17). The pull-request will automatically be updated with the new commits you
@@ -103,7 +115,7 @@ $ git commit -v                                        (16)
 $ git push origin <BRANCH_NAME>                        (17)
 ```
 
-### Keep your repositories up-to-date (18-23)
+## Keep your repositories up-to-date (18-23)
 
 While you are working on your idea, the maintainer may have accepted work from
 other contributors. As that happens, the project's master branch will contain
@@ -133,7 +145,7 @@ $ git rebase --continue                                (22)
 $ git push -f origin master <BRANCH_NAME>              (23)
 ```
 
-### Squash your commits (24-25)
+## Squash your commits (24-25)
 
 
 If you are following best practices, you will make many small commits as you
@@ -168,7 +180,7 @@ $ git rebase -i master                                 (24)
 $ git push -f origin <BRANCH_NAME>                     (25)
 ```
 
-### Maintainer accepts your pull-request (26)
+## Maintainer accepts your pull-request (26)
 
 
 After all your hard work, hopefully the maintainer will eventually accept your
@@ -178,7 +190,7 @@ pull-request, which will merge your changes into their master branch.
 ### Maintainer accepts your pull-request               (26)
 ```
 
-### Update your master (27-28)
+## Update your master (27-28)
 
 After the maintainer has accepted your pull-request, your need to update your
 master with the new changes in upstream, which are yours (27-28)! You follow the
@@ -190,7 +202,7 @@ $ git fetch upstream master:master                     (27)
 $ git push origin master                               (28)
 ```
 
-### Delete unneeded branches (29-31)
+## Delete unneeded branches (29-31)
 
 Now that your work has been accepted in upstream, you can safely delete the
 branches you were working on (29-30). If you ever abandon your effort before
@@ -203,7 +215,7 @@ $ git branch -d <BRANCH_NAME>                          (30)
 $ git push origin :<BRANCH_NAME>                       (31)
 ```
 
-### References
+## References
 
 [1] GitHub. _Resolving a Merge Conflict from the Command Line_. Accessed April
 2016.
