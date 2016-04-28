@@ -34,8 +34,9 @@ occasionally.
 
 In this activity your team will play out several scenarios following steps
 described in _Guide: A Common Workflow to Contribute to HFOSS_. This document is
-available here:
-https://github.com/StoneyJackson/git-ccscne-2016/tutorial2/workflow-guide.md
+available in tutorial2/workflow-guide.md at
+
+https://github.com/StoneyJackson/git-ccscne-2016
 
 ## Setup the project
 
