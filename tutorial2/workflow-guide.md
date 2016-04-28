@@ -1,6 +1,6 @@
 # Guide: A Common Workflow to Contribute to HFOSS
 
-his and other materials are available here:
+This and other materials are available here:
 https://github.com/StoneyJackson/git-ccscne-2016 .
 
 ## Copyright and Licensing
