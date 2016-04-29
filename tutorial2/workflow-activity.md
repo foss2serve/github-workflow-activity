@@ -15,18 +15,18 @@ http://creativecommons.org/licenses/by-sa/4.0/ .
 
 Form a 3-person team. If you can't form a team of 3, form a team of 2.
 
-Assign the following rolls to the members of your team. If you are in a team
+Assign the following roles to the members of your team. If you are in a team
 of 2, assign contributor-1 and maintainer to the same person.
 
-Rolls:
+Roles:
 
 - Maintainer: Creates and maintains a GitHub project.
 - Contributor-1: Contributes to the GitHub project created by the maintainer.
 - Contributor-2: Contributes to the GitHub project created by the maintainer.
 
-Switch rolls occasionally. Maintainer doesn't have as much to do as the
-contributors. If you do switch rolls, physically switch computers. In other
-words, the computers should be associated with the rolls. This might mean that
+Switch roles occasionally. Maintainer doesn't have as much to do as the
+contributors. If you do switch roles, physically switch computers. In other
+words, the computers should be associated with the roles. This might mean that
 the owner of the computer may have to enter his/her password for GitHub
 occasionally.
 
