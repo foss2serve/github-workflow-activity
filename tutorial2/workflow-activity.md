@@ -1,3 +1,15 @@
+# Activity: A Common Workflow to Contribute to HFOSS
+
+This and other materials are available here:
+https://github.com/StoneyJackson/git-ccscne-2016 .
+
+## Copyright and Licensing
+
+Copyright 2016, Darci Burdge and Stoney Jackson
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/ .
 
 ## Form teams
 
@@ -18,10 +30,21 @@ words, the computers should be associated with the rolls. This might mean that
 the owner of the computer may have to enter his/her password for GitHub
 occasionally.
 
-## Setup
+## Overview
+
+In this activity your team will play out several scenarios following steps
+described in _Guide: A Common Workflow to Contribute to HFOSS_. This document is
+available in tutorial2/workflow-guide.md at
+
+https://github.com/StoneyJackson/git-ccscne-2016
+
+## Setup the project
 
 - Help your maintainer to create a new project on GitHub named `favorites`.
-- Help your contributors to follow _Setup: (1-4)_ to prepare their local repositories.
+
+## Contributor-1 setup
+
+- Help Contributor-1 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
 
 ## First contribution
 
@@ -30,12 +53,13 @@ occasionally.
   favorite foods.
 - Help the maintainer to accept contributor-1's pull-request on GitHub.
 - Help contributor-1 to follow _Update your master (27-28)_ and
-  _Delete unneeded branches (29-30)_ to clean up.
+  _Delete unneeded branches (29-31)_ to clean up.
 
 Congratulations, your team has made its first contribution! Celebrate.
 
-## Second contribution
+## Contributor-2 setup and second contribution
 
+- Help Contributor-2 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
 - Repeat the steps above to have contributor-2 contribute a new file
   `favorite-movies.txt` with a couple of his/her favorite movies.
 - Make sure that the maintainer has accepted contributor-2's pull-request and
