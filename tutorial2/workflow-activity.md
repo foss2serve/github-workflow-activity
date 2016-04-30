@@ -48,7 +48,7 @@ https://github.com/StoneyJackson/git-ccscne-2016
 
 ## First contribution
 
-- Help contributor-1 to follow _Starting your contribution: (5-17)_ to add a
+- Help contributor-1 to follow _Starting your contribution: (5-13)_ to add a
   new file `favorite-foods.txt` that contains a couple of contributor-1's
   favorite foods.
 - Help the maintainer to accept contributor-1's pull-request on GitHub.
