@@ -37,22 +37,21 @@ Participants must be able to:
 Participants will be able to ...
 
 - Use a common workflow to contribute code to a project on GitHub
-- Fork a project on GitHub
-- Clone a repository on GitHub to local machine
-- Create a remote in a repository to reference another repository
-- Create a branch
-- Push a branch
-- Issue a pull-request
-- Update an open pull-request
-- Synchronize a fork (and local repository) with original project
-- Rebase a branch on top of another
-- Resolve conflicts
-- Squash commits
-- Delete a branch in a local repository
-- Delete a branch in a remote repository
-- As a maintainer, accept a pull-request
-- As a maintainer, request additional changes on a pull request
-
+  - Prepare a fork and local repository to contribute changes to upstream project on GitHub
+    - Fork a project on GitHub
+    - Clone a local repository from a remote repository
+    - Create a remote in local repository to a remote repository
+  - Prepare a branch to work on a feature or bug
+    - Create a local branch
+    - Push a local branch to a remote
+  - Issue a pull-request on GitHub
+  - Update repository with changes from upstream
+    - Fetch upstream changes into local repository
+    - Rebase feature branch onto upstream development branch
+    - Resolve conflicts
+  - Push changes to remote
+  - Force push changes to remote
+  - Squash commits
 
 ## Getting Started
 
