@@ -1,7 +1,4 @@
-# Activity: A Common Workflow to Contribute to HFOSS
-
-This and other materials are available here:
-https://github.com/StoneyJackson/git-ccscne-2016 .
+# GitHub Workflow Activity
 
 ## Copyright and Licensing
 
@@ -33,10 +30,7 @@ occasionally.
 ## Overview
 
 In this activity your team will play out several scenarios following steps
-described in _Guide: A Common Workflow to Contribute to HFOSS_. This document is
-available in tutorial2/workflow-guide.md at
-
-https://github.com/StoneyJackson/git-ccscne-2016
+described in _GitHub Workflow Reference_.
 
 ## Setup the project
 
