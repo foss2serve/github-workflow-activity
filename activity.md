@@ -1,12 +1,5 @@
 # GitHub Workflow Activity
 
-## Copyright and Licensing
-
-Copyright 2016, Darci Burdge and Stoney Jackson
-
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
-International License. To view a copy of this license, visit
-http://creativecommons.org/licenses/by-sa/4.0/ .
 
 ## Form teams
 
@@ -27,18 +20,22 @@ words, the computers should be associated with the roles. This might mean that
 the owner of the computer may have to enter his/her password for GitHub
 occasionally.
 
+
 ## Overview
 
 In this activity your team will play out several scenarios following steps
 described in _GitHub Workflow Reference_.
 
+
 ## Setup the project
 
 - Help your maintainer to create a new project on GitHub named `favorites`.
 
+
 ## Contributor-1 setup
 
 - Help Contributor-1 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
+
 
 ## First contribution
 
@@ -51,6 +48,7 @@ described in _GitHub Workflow Reference_.
 
 Congratulations, your team has made its first contribution! Celebrate.
 
+
 ## Contributor-2 setup and second contribution
 
 - Help Contributor-2 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
@@ -61,6 +59,7 @@ Congratulations, your team has made its first contribution! Celebrate.
 
 Celebrate again.
 
+
 ## First synchronization
 
 - Contributor-1's repositories are out of synch. Help contributor-1 follow
@@ -69,6 +68,7 @@ Celebrate again.
   containing changes that upstream does not have.
 
 Celebrate. But keep it small. It was a one-line operation after all.
+
 
 ## Contribute conflicting changes
 
@@ -86,6 +86,7 @@ Celebrate. But keep it small. It was a one-line operation after all.
 
 Celebrate enthusiastically. That was challenging.
 
+
 ## Multi-round contribution
 
 - Have contributor-1 add another food, and contributor-2 another movie.
@@ -98,6 +99,7 @@ Celebrate enthusiastically. That was challenging.
 Notice how pull-requests provide a way for a contributor and a maintainer to
 communicate about a proposed change. Also notice how the pull-request updates
 automatically as new changes are pushed to the same branch.
+
 
 ## Squash
 
@@ -112,3 +114,10 @@ automatically as new changes are pushed to the same branch.
 - Contributors, don't forget to clean up.
 
 This is another moment for an enthusiastic celebration. Well done!  
+
+
+## Copyright and Licensing
+
+Copyright 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ .

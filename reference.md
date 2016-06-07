@@ -1,13 +1,5 @@
 # GitHub Workflow Reference
 
-## Copyright and Licensing
-
-Copyright 2016, Darci Burdge and Stoney Jackson
-
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
-International License. To view a copy of this license, visit
-http://creativecommons.org/licenses/by-sa/4.0/ .
-
 
 ## Prerequisites
 
@@ -16,6 +8,7 @@ http://creativecommons.org/licenses/by-sa/4.0/ .
 - You have Git 2+ installed and configured.
 - You know how to open a terminal and generally work from the command-line.
 - You know enough of vi or vim to edit, move around in, save, and quit files.
+
 
 ## Workflow Overview
 
@@ -50,6 +43,7 @@ the project. The exact modifications you might make, and the tools that you use
 to make them, depend on what you are trying to do and your preferences. In
 short, these lines should not be typed in literally, but must be interpreted in
 terms of the task you are performing.
+
 
 ## Setup: (1-4)
 
@@ -95,6 +89,7 @@ $ git push -u origin <BRANCH_NAME>                     (11)
 ### from <BRANCH_NAME> in yours to master on theirs.   (13)
 ```
 
+
 ## Work (14-17)
 
 Keep working on your idea, committing and publishing your work as you go
@@ -111,6 +106,7 @@ $ git add .                                            (15)
 $ git commit -v                                        (16)
 $ git push origin <BRANCH_NAME>                        (17)
 ```
+
 
 ## Keep your repositories up-to-date (18-23)
 
@@ -142,8 +138,8 @@ $ git rebase --continue                                (22)
 $ git push -f origin master <BRANCH_NAME>              (23)
 ```
 
-## Squash your commits (24-25)
 
+## Squash your commits (24-25)
 
 If you are following best practices, you will make many small commits as you
 develop your idea. Sometimes earlier commits are invalidated/corrected by later
@@ -177,8 +173,8 @@ $ git rebase -i master                                 (24)
 $ git push -f origin <BRANCH_NAME>                     (25)
 ```
 
-## Maintainer accepts your pull-request (26)
 
+## Maintainer accepts your pull-request (26)
 
 After all your hard work, hopefully the maintainer will eventually accept your
 pull-request, which will merge your changes into their master branch.
@@ -186,6 +182,7 @@ pull-request, which will merge your changes into their master branch.
 ```bash
 ### Maintainer accepts your pull-request               (26)
 ```
+
 
 ## Update your master (27-28)
 
@@ -198,6 +195,7 @@ don't  need to rebase. That's because your work is already included in master.
 $ git fetch upstream master:master                     (27)
 $ git push origin master                               (28)
 ```
+
 
 ## Delete unneeded branches (29-31)
 
@@ -212,6 +210,7 @@ $ git branch -d <BRANCH_NAME>                          (30)
 $ git push origin :<BRANCH_NAME>                       (31)
 ```
 
+
 ## References
 
 [1] GitHub. _Resolving a Merge Conflict from the Command Line_. Accessed April
@@ -219,3 +218,12 @@ $ git push origin :<BRANCH_NAME>                       (31)
 <https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/>.
 
 [2] GitHub. _About Git Rebase_. Accessed April 2016. <https://help.github.com/articles/about-git-rebase/>.
+
+
+## Copyright and Licensing
+
+Copyright 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License. To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/ .

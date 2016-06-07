@@ -4,16 +4,13 @@ Participants, in teams of 2-3, work through a series of scenarios to learn how t
 
 ## Required Resources
 
-[List required time, participants, materials, skills, knowledges, people, etc. Example follows.]
-
-- Time: 80 minutes
 - Participants: 2+
 - Each participant needs
   - A computer with
-    - git
-    - Plaintext editor
-    - Command-line interface
-    - Browser
+    - git installed and configured
+    - A plaintext editor
+    - A command-line interface
+    - A browser
     - A working Internet connection with ports open for SSH, HTTPS, and HTTP
   - A GitHub account
 
@@ -34,7 +31,7 @@ Participants must be able to:
 
 ## Learning Outcomes
 
-Participants will be able to ...
+Participants will be able to:
 
 - Use a common workflow to contribute code to a project on GitHub
   - Prepare a fork and local repository to contribute changes to upstream project on GitHub
@@ -53,19 +50,23 @@ Participants will be able to ...
   - Force push changes to remote
   - Squash commits
 
-## Getting Started
+## Contents
 
-Instructor:
+- activity.md - Activity participants work through.
+- presentation.pptx - Overview presentation of workflow.
+- reference.md - Detailed description of the workflow.
 
-0. Before the session, print copies of activity.md and guide.md, 1 per team.
-1. (10 min) Go through the presentation ___quickly___ to give students an overview of the workflow they'll be experiencing. Be sure to manage expectations; students will not be able to learn everything from the presentation. The goal is to just get a working understanding. Let them know that there is an activity and a guide that will walk them through each step, and that the slides are available on-line.
-  - Form teams (on appropriate slide)
-  - Hand out one copy of activity.md and guide.md to each team (on appropriate slide)
-  - Leave penultimate slide up while students work through activity
-2. (70 min) Participants work through activities, circulate ensuring that participants understand what they are doing, keeping teams moving and working together.
+## Facilitation
+
+- 10 min:
+  - ___Quickly___ presentation.pptx
+  - Form teams
+  - Hand out activity.md and reference.md, one hardcopy per team
+- 50-70 min:
+  - Teams work through activity.md
 
 ## License
 
-(c) 2016 Stoney Jackson SOME RIGHTS RESERVED
+(c) 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ .
