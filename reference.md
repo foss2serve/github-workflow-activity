@@ -124,7 +124,7 @@ not become too stale.
 Again, as you push your work to your repository on GitHub, the pull-request
 is updated automatically.
 
-Also, remember, lines (20) is marked with `*`, so must be interpreted for the
+Also, remember, line (20) is marked with `*`, so must be interpreted for the
 task you are performing.
 
 
