@@ -199,7 +199,7 @@ $ git push origin master                               (28)
 ## Delete unneeded branches (29-31)
 
 Now that your work has been accepted in upstream, you can safely delete the
-branches you were working on (29-30). If you ever abandon your effort before
+branches you were working on both in your local and remote repositories (29-31). If you ever abandon your effort before
 a pull-request is accepted, you can also delete your branch; but you'll need
 to use -D (capital D) in (29).
 
