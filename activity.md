@@ -54,8 +54,7 @@ Congratulations, your team has made its first contribution! Celebrate.
 - Help Contributor-2 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
 - Repeat the steps above to have contributor-2 contribute a new file
   `favorite-movies.txt` with a couple of his/her favorite movies.
-- Make sure that the maintainer has accepted contributor-2's pull-request and
-  contributor-2 has cleaned up.
+- Make sure that the maintainer has accepted contributor-2's pull-request and contributor-2 has updated their master and cleaned up.
 
 Celebrate again.
 
