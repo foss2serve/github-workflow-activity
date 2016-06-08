@@ -24,7 +24,7 @@ occasionally.
 ## Overview
 
 In this activity your team will play out several scenarios following steps
-described in _GitHub Workflow Reference_.
+described in _GitHub Workflow Reference_ (the other document you were given).
 
 
 ## Setup the project
