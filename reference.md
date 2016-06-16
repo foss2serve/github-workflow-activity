@@ -23,10 +23,8 @@ brackets, e.g., `<MY_URL>`, replace it with a value appropriate to the project
 you are working on. A list of these placeholders and their meaning is below:
 
 - `<MY_URL>` - The URL to your GitHub hosted repository. To find it, navigate to
-  your repository on GitHub and to the right of the green "New Pull Request"
-  button, you'll find an HTTPS or SSH button followed by a box containing a URL.
-  That's the URL you need. Unless you have configured your GitHub account with
-  an SSH key for your local machine, use the URL for HTTPS.
+  your repository on GitHub. Click on the green "New Pull Request"
+  button. You get a pop-up that contains a URL in a text-box. Unless you have configured your GitHub account to authenticate with SSH, you'll want a URL that starts with https://. If the URL starts with git@github... click `Use HTTPS`.
 - `<THEIR_URL>` - The URL for the project's repository that you would like to
   contribute to. Find it by navigating to their repository on GitHub and copy
   the URL in the box right of the `SSH` or `HTTPS` button. Use `HTTPS` since
