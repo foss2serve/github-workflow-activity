@@ -63,10 +63,8 @@ Celebrate again.
 
 - Contributor-1's repositories are out of synch. Help contributor-1 follow
   _Keep your repositories up-to-date (18-23)_ to update his/her repositories.
-  Only step 18 should be necessary because contributor-1 does not have a branch
-  containing changes that upstream does not have.
 
-Celebrate. But keep it small. It was a one-line operation after all.
+Celebrate. But keep it small. Don't worry, there will be bigger celebrations later.
 
 
 ## Contribute conflicting changes
