@@ -136,6 +136,16 @@ $ git push -f origin master <BRANCH_NAME>              (23)
 ```
 
 
+**If you are on master, (18) will fail. Now what?**
+
+If you are on master branch, (18) will fail. Instead replace that line with `git pull upstream master`. This will fetch and merge the changes from upstream's master branch into your current local branch (master in this case). After that, (19-22) are unnecessary. However, don't forget to update master in your origin repository but running (23).
+
+
+**Updating other branches**
+
+After you have updated your master branch (18), if you have other branches, you may need to update them as well. To do that, checkout each branch one at a time (e.g., `git checkout <OTHER_BRANCH_NAME>`) and perform (19-22) for each.
+
+
 ## Squash your commits (24-25)
 
 If you are following best practices, you will make many small commits as you
@@ -206,6 +216,13 @@ $ git checkout master                                  (29)
 $ git branch -d <BRANCH_NAME>                          (30)
 $ git push origin :<BRANCH_NAME>                       (31)
 ```
+
+
+## Update your repositories before starting the next fix/feature (32-33)
+
+OK, it's been a month since you worked on the project. Now you're back from the Bahamas and are ready to start working again. However, while you were sunning yourself, others have been hard at work contributing changes to upstream. So before you start working again, you need to update your repositories with changes from upstream. Follow steps in section _Keep your repositories up-to-date (18-23)_ to get this done.
+
+Nice tan. Now get back to work!
 
 
 ## References
