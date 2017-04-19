@@ -1,38 +1,40 @@
 # GitHub Workflow Activity
 
-## 1. Form teams
+## Form teams
 
 Form a of 2 or 3 person team. It's better to work with someone who is using the same operating system as you.
 
 Each team member will sometimes be a maintainer and sometimes a contributor. Rotate roles as necessary to ensure everyone in your team gets a chance to experience each role.
 
 
-## 2. Overview
+## Overview
 
 In this activity your team will play out several scenarios following steps
 described in _Workflow Reference_ (at the end of this document).
 
+- Complete each part in order.
+- Complete each step in each part in order.
 
-## 3. Create an organization on GitHub
+## Part 1: Create an organization on GitHub
 
 - Name it what you like.
 - Set the default permissions so that all organization members can create projects and write to any project in the organization.
 - Add all team members to the organization.
 
 
-## 4. Create official upstream repository in organization
+## Part 2: Create official upstream repository in organization
 
 - Name it `ourfavorites`
 - Give it a default README.md file.
 
 
-## 5. Contributor-1 setup
+## Part 3: Contributor-1 setup
 
 - Select a team member to be Contributor-1
 - Help Contributor-1 to follow _Setup: (1-4)_ in the _Workflow Reference_ to prepare his/her local and remote repositories.
 
 
-## 6. First contribution
+## Part 4: First contribution
 
 - Help Contributor-1 to follow _Starting your contribution: (5-13)_ to add a
   new file `favorite-foods.txt` that contains a couple of Contributor-1's
@@ -45,7 +47,7 @@ described in _Workflow Reference_ (at the end of this document).
 Congratulations, your team has made its first contribution! Celebrate. :clap: :clap:
 
 
-## 7. Contributor-2 setup and second contribution
+## Part 5: Contributor-2 setup and second contribution
 
 - Help Contributor-2 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
 - Repeat the steps above to have contributor-2 contribute a new file
@@ -56,7 +58,7 @@ Celebrate again. :clap: :clap:
 
 If you have 3 team members, repeat this scenario adding a file `favorite-animals.txt`.
 
-## 8. First synchronization
+## Part 6: First synchronization
 
 - Contributor-1's repositories are out of synch. Help Contributor-1 follow
   _Keep your repositories up-to-date (18-23)_ to update his/her repositories.
@@ -64,7 +66,7 @@ If you have 3 team members, repeat this scenario adding a file `favorite-animals
 Celebrate. But keep it small. :clap: Don't worry, there will be bigger celebrations later.
 
 
-## 9. Contribute conflicting changes
+## Part 7: Contribute conflicting changes
 
 - Have Contributor-1 and Contributor-2 independently follow the contribution
   workflow to add another favorite food to the end of `favorite-foods.txt`.
@@ -81,7 +83,7 @@ Celebrate. But keep it small. :clap: Don't worry, there will be bigger celebrati
 Celebrate enthusiastically. :clap: :clap: :clap: That was challenging.
 
 
-## 10. Multi-round contribution
+## Part 8: Multi-round contribution
 
 - Have contributor-1 add another food, and contributor-2 another movie.
 - Have the maintainer ask for a modification through the pull-request
@@ -95,7 +97,7 @@ communicate about a proposed change. Also notice how the pull-request updates
 automatically as new changes are pushed to the same branch.
 
 
-## 11. Squash
+## Part 9: Squash
 
 - Repeat the multi-round contribution until both contributors have made multiple
   commits.
@@ -110,7 +112,7 @@ automatically as new changes are pushed to the same branch.
 This is another moment for an enthusiastic celebration. :clap: :clap: :clap: :clap: :clap: Well done!  
 
 
-## 12. Copyright and Licensing
+## Copyright and Licensing
 
 Copyright 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
 
