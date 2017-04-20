@@ -10,7 +10,7 @@ Each team member will sometimes be a maintainer and sometimes a contributor. Rot
 ## Overview
 
 In this activity your team will play out several scenarios following steps
-described in _Workflow Reference_ (at the end of this document).
+described in [_Workflow Reference_](reference.md).
 
 - Complete each part in order.
 - Complete each step in each part in order.
