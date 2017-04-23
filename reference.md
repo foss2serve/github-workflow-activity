@@ -35,12 +35,6 @@ you are working on. A list of these placeholders and their meaning is below:
   related to the bug your are fixing or the feature you are implementing.
   Whatever you choose, use the same branch name throughout the example.
 
-Also note, lines marked with `*` represent modifications being made to files in
-the project. The exact modifications you might make, and the tools that you use
-to make them, depend on what you are trying to do and your preferences. In
-short, these lines should not be typed in literally, but must be interpreted in
-terms of the task you are performing.
-
 
 ## Setup: (1-4)
 
@@ -77,9 +71,6 @@ are trying to do and give you feedback early. That way, if you are on the wrong
 track or the maintainer is not interested in your idea, you can find out before
 you waste too much time implementing your idea.
 
-Also, remember, lines (6-8) are marked with `*`, so must be interpreted for the
-task you are performing.
-
 _Using the command-line_
 ```
 (5) $ git checkout -b <BRANCH_NAME>
@@ -110,9 +101,6 @@ Keep working on your idea, committing and publishing your work as you go
 push to your repository on GitHub, allowing the maintainer to follow your
 progress as you go.
 
-Also, remember, lines (14) is marked with `*`, so must be interpreted for the
-task you are performing.
-
 _Using favorite tools_
 ```
 (14) Modify files as needed.
@@ -142,9 +130,6 @@ not become too stale.
 
 Again, as you push your work to your repository on GitHub, the pull-request
 is updated automatically.
-
-Also, remember, line (20) is marked with `*`, so must be interpreted for the
-task you are performing.
 
 _Using the command-line_
 ```
