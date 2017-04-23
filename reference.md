@@ -50,18 +50,24 @@ your local repository (4). Once you've done this setup for a project, you will
 not need to do it again unless you delete the fork, your local clone, or the
 remote.
 
-```bash
-### Use GitHub to fork their repository.                (1)
-$ git clone <MY_URL> <DIR>                              (2)
-$ cd <DIR>                                              (3)
-$ git remote add upstream <THEIR_URL>                   (4)
+
+_Using GitHub_
+```
+(1) Fork upstream repository into your personal GitHub account.
+```
+
+_Using the command-line_
+```
+(2) $ git clone <MY_URL> <DIR>
+(3) $ cd <DIR>
+(4) $ git remote add upstream <THEIR_URL>
 ```
 
 
 ## Starting your contribution: (5-13)
 
 When you start working on a contribution, you need to create a branch to hold
-your work (5), do a little work and commit it (6-10), push your new branch to
+your work (5), do a little work and commit it (6-8), push your new branch to
 your repository on GitHub (11), and create a pull-request from your new branch
 to master in the project's repository on GitHub (12-13).
 
@@ -74,18 +80,28 @@ you waste too much time implementing your idea.
 Also, remember, lines (6-8) are marked with `*`, so must be interpreted for the
 task you are performing.
 
-```bash
-$ git checkout -b <BRANCH_NAME>                         (5)
-$ vim file1                                            (*6)
-$ rm file2                                             (*7)
-$ mv file3 file4                                       (*8)
-$ git add .                                             (9)
-$ git commit -v                                        (10)
-$ git push -u origin <BRANCH_NAME>                     (11)
-### Use GitHub to open a pull request                  (12)
-### from <BRANCH_NAME> in yours to master on theirs.   (13)
+_Using the command-line_
+```
+(5) $ git checkout -b <BRANCH_NAME>
 ```
 
+_Using favorite tools_
+```
+(6-8) Modifying your project files as needed.
+```
+
+_Using the command-line_
+```
+(9) $ git add .
+(10) $ git commit -v
+(11) $ git push -u origin <BRANCH_NAME>
+```
+
+_Using GitHub_
+```
+(12) Create a pull-request from <BRANCH_NAME> in yours
+     to master in theirs.
+```
 
 ## Work (14-17)
 
@@ -97,11 +113,16 @@ progress as you go.
 Also, remember, lines (14) is marked with `*`, so must be interpreted for the
 task you are performing.
 
-```bash
-$ vim file4                                           (*14)
-$ git add .                                            (15)
-$ git commit -v                                        (16)
-$ git push origin <BRANCH_NAME>                        (17)
+_Using favorite tools_
+```
+(14) Modify files as needed.
+```
+
+_Using the command-line_
+```
+(15) $ git add .
+(16) $ git commit -v
+(17) $ git push origin <BRANCH_NAME>
 ```
 
 
@@ -125,14 +146,22 @@ is updated automatically.
 Also, remember, line (20) is marked with `*`, so must be interpreted for the
 task you are performing.
 
+_Using the command-line_
+```
+(18) $ git fetch upstream master:master
+(19) $ git rebase master
+```
 
-```bash
-$ git fetch upstream master:master                     (18)
-$ git rebase master                                    (19)
-$ vim file1                                           (*20)
-$ git add .                                            (21)
-$ git rebase --continue                                (22)
-$ git push -f origin master <BRANCH_NAME>              (23)
+_Using favorite editor_
+```
+(20) Modify file with conflict to resolve conflict.
+```
+
+_Using the command-line_
+```
+(21) $ git add .
+(22) $ git rebase --continue
+(23) $ git push -f origin master <BRANCH_NAME>
 ```
 
 
@@ -175,9 +204,10 @@ relatively easy.
 
 GitHub has a nice article on interactive rebases [2].
 
-```bash
-$ git rebase -i master                                 (24)
-$ git push -f origin <BRANCH_NAME>                     (25)
+_Using the command-line_
+```
+(24) $ git rebase -i master
+(25) $ git push -f origin <BRANCH_NAME>
 ```
 
 
@@ -186,8 +216,9 @@ $ git push -f origin <BRANCH_NAME>                     (25)
 After all your hard work, hopefully the maintainer will eventually accept your
 pull-request, which will merge your changes into their master branch.
 
-```bash
-### Maintainer accepts your pull-request               (26)
+_Using GitHub_
+```
+(26) Maintainer accepts your pull-request.
 ```
 
 
@@ -198,9 +229,10 @@ master with the new changes in upstream, which are yours (27-28)! You follow the
 same procedure as in "Keeping your repositories up-to-date", except that you
 don't  need to rebase. That's because your work is already included in master.
 
-```bash
-$ git fetch upstream master:master                     (27)
-$ git push origin master                               (28)
+_Using the command-line_
+```
+(27) $ git fetch upstream master:master
+(28) $ git push origin master
 ```
 
 
@@ -211,10 +243,11 @@ branches you were working on both in your local and remote repositories (29-31).
 a pull-request is accepted, you can also delete your branch; but you'll need
 to use -D (capital D) in (30).
 
-```bash
-$ git checkout master                                  (29)
-$ git branch -d <BRANCH_NAME>                          (30)
-$ git push origin :<BRANCH_NAME>                       (31)
+_Using the command-line_
+```
+(29) $ git checkout master
+(30) $ git branch -d <BRANCH_NAME>
+(31) $ git push origin :<BRANCH_NAME>
 ```
 
 
