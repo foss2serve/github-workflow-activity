@@ -10,219 +10,215 @@
 - You know enough of vi or vim to edit, move around in, save, and quit files.
 
 
-## Workflow Overview
+## Start a new project
 
-The workflow description below covers the typical operations in the order
-they are often performed to develop and contribute work to another project.
-Most of the operations are issued from the command-line. These lines start with`$`.
-Do not type `$`. This is the prompt that the command-line displays to you to
-indicate that it is ready for you to type a command. Lines that start with `###`
-are performed using GitHub through a browser. The numbers at the end of each
-line are for quick reference and should not be typed either. When you see a term in all capital letters surrounded by angle
-brackets, e.g., `<MY_URL>`, replace it with a value appropriate to the project
-you are working on. A list of these placeholders and their meaning is below:
+When you start a new project, you'll want to create it inside an organization (1-2). This will allow everyone to contribute using the same workflow. It's also a good idea to configure the new project to protect the master branch from accidental deletions and from pushes, and to require that changes to master only be done through reviewed pull-requests (3). Last, you'll need to invite maintainers to be collaborators on the project (4-5). This will allow maintainers to review and merge pull-requests.
 
-- `<MY_URL>` - The URL to your GitHub hosted repository. To find it, navigate to
-  your repository on GitHub. Click on the green "New Pull Request"
-  button. You get a pop-up that contains a URL in a text-box. Unless you have configured your GitHub account to authenticate with SSH, you'll want a URL that starts with https://. If the URL starts with git@github... click `Use HTTPS`.
-- `<THEIR_URL>` - The URL for the project's repository that you would like to
-  contribute to. Find it by navigating to their repository on GitHub and copy
-  the URL in the box right of the `SSH` or `HTTPS` button. Use `HTTPS` since
-  this is not your repository.
-- `<DIR>` - This is any directory name you like. But use the same directory for
-  each occurrence of `<DIR>`.
-- `<BRANCH_NAME>` - This is a branch name of your choosing. Choose one that is
-  related to the bug your are fixing or the feature you are implementing.
-  Whatever you choose, use the same branch name throughout the example.
-
-Also note, lines marked with `*` represent modifications being made to files in
-the project. The exact modifications you might make, and the tools that you use
-to make them, depend on what you are trying to do and your preferences. In
-short, these lines should not be typed in literally, but must be interpreted in
-terms of the task you are performing.
-
-
-## Setup: (1-4)
-
-When you first start working on a project, you'll need to fork their project
-(1), clone your fork locally (2-3), and create a remote back to their project in
-your local repository (4). Once you've done this setup for a project, you will
-not need to do it again unless you delete the fork, your local clone, or the
-remote.
-
-```bash
-### Use GitHub to fork their repository.                (1)
-$ git clone <MY_URL> <DIR>                              (2)
-$ cd <DIR>                                              (3)
-$ git remote add upstream <THEIR_URL>                   (4)
+_On GitHub_
+```
+(1) Identify or create an organization to own the new project.
+(2) Navigate to the organization and create a new project.
+(3) Use the new project's settings to protect the master branch
+    from deletion and pushes, require changes to master be
+    made through pull-requests, and require each pull-request be
+    reviewed by a maintainer.
+(4) Invite maintainers to be collaborators on the project.
+(5) Each maintainer accepts the invitation through their email
+    or on the project's page on GitHub.
 ```
 
 
-## Starting your contribution: (5-13)
+## Prepare to work on a project
 
-When you start working on a contribution, you need to create a branch to hold
-your work (5), do a little work and commit it (6-10), push your new branch to
-your repository on GitHub (11), and create a pull-request from your new branch
-to master in the project's repository on GitHub (12-13).
+When you first start working on a project, you'll need to fork their project into your personal GitHub account (1-3), clone your fork locally (4-6), and create a remote back to their project in your local repository (7-9). Once you've done this setup for a particular project, you will not need to do it again unless you delete your fork, or your local repository for the project.
 
-The purpose of the pull-request isn't to get the maintainer to accept your work
-(yet). It starts a conversation with the maintainer. They can review what you
-are trying to do and give you feedback early. That way, if you are on the wrong
-track or the maintainer is not interested in your idea, you can find out before
-you waste too much time implementing your idea.
 
-Also, remember, lines (6-8) are marked with `*`, so must be interpreted for the
-task you are performing.
+_Using GitHub_
+```
+(1) Navigate to the project you want to contribute to.
+(2) Use "Fork" to fork their project into your personal
+    GitHub account.
+(3) Navigate to your fork of the project.
+(4) Use "Clone or download" to reveal your fork's repository URL.
+```
 
-```bash
-$ git checkout -b <BRANCH_NAME>                         (5)
-$ vim file1                                            (*6)
-$ rm file2                                             (*7)
-$ mv file3 file4                                       (*8)
-$ git add .                                             (9)
-$ git commit -v                                        (10)
-$ git push -u origin <BRANCH_NAME>                     (11)
-### Use GitHub to open a pull request                  (12)
-### from <BRANCH_NAME> in yours to master on theirs.   (13)
+_Using the command-line_
+```
+(5) git clone <FORKS_REPOSITORY_URL> <LOCAL_REPOSITORY_DIRECTORY>
+(6) cd <LOCAL_REPOSITORY_DIRECTORY>
+```
+
+_Using GitHub_
+```
+(7) Navigate to the original project's page.
+(8) Use "Clone or download" to reveal the project's repository URL.
+```
+
+_Using the command-line_
+```
+(9) git remote add upstream <PROJECT_REPOSITORY_URL>
 ```
 
 
-## Work (14-17)
+## Prepare to work on an issue
 
-Keep working on your idea, committing and publishing your work as you go
-(14-17). The pull-request will automatically be updated with the new commits you
-push to your repository on GitHub, allowing the maintainer to follow your
-progress as you go.
+Before you start work, you should claim an unclaimed ticket in the original project's issue tracker representing the bug or feature you are planning to work on. This helps prevent developers from inadvertently working on the same thing at the same time. If you can't find an issue relevant to what you want to work on, you should first create an issue and then claim it. (1-4)
 
-Also, remember, lines (14) is marked with `*`, so must be interpreted for the
-task you are performing.
+_On GitHub_
+```
+(1) Navigate to the original project page.
+(2) Use "Issues" to find an unclaimed issue to work on.
+(3) If necessary, create an issue to work on.
+(4) Claim the issue by leaving a comment in the issue stating
+    that you are working on it.
+```
 
-```bash
-$ vim file4                                           (*14)
-$ git add .                                            (15)
-$ git commit -v                                        (16)
-$ git push origin <BRANCH_NAME>                        (17)
+Once you have claimed an issue, you'll want to create a feature branch to hold your work (___never work on master directly___). But before you do, first make sure your master is up-to-date with the project's repository (5-7). Then create and checkout your feature branch, giving it a meaningful name (8-9).
+
+_On command-line_
+```
+(5) git checkout master
+(6) git pull --ff-only upstream
+(7) git push
+(8) git branch <FEATURE_BRANCH>
+(9) git checkout <FEATURE_BRANCH>
+```
+
+You should publish your new branch as soon as possible so others know you are working on it. Git won't let you push a branch that does not have any new commits. So you'll need to commit something to the new branch before you can publish it. Here you'll make an empty commit and then publish the new branch to your fork (10-11).
+
+_On command-line_
+```
+(10) git commit --allow-empty -m "Start <FEATURE>"
+(11) git push -u origin <FEATURE_BRANCH>
+```
+
+Now we want to let the project know that we have begun to work on the issue and where they can find your work if they want to watch your progress and provide feedback on your work. Issue a pull-request back to the project (12-13), and then put a reference to the pull-request in the issue you are working on (14-16).
+
+_On GitHub_
+```
+(12) Navigate to your fork.
+(13) Create a pull request from your feature branch
+     to the master branch on the project.
+(14) Note your pull-request's number.
+(15) Navigate to the issue you claimed.
+(16) Leave a comment in the issue with the pull-requests number.
+     For example, "I'm working on this issue in this
+     pull-request #<NUMBER>".
 ```
 
 
-## Keep your repositories up-to-date (18-23)
+## Work
 
-While you are working on your idea, the maintainer may have accepted work from
-other contributors. As that happens, the project's master branch will contain
-commits that yours do not. You'll need to fetch these commits into your local
-master (18), rebase your work on top of those commits (19), and push your
-branches to your repository on GitHub (23). When you rebase your work (19) you
-might find that your changes are incompatible with those you fetched from
-upstream. You will need to resolve any conflicts that git identifies (20-22).
-GitHub has a lovely tutorial on resolving conflicts [1].
+Before you do any work, always make sure you are on the right feature branch for the work that you are doing (1). Then do a little work (2) and commit and publish that work (3-5). The pull-request will be updated automatically.
 
-It's a good idea to update your repositories regularly so that your work does
-not become too stale.
+_Using the command-line_
+(1) git checkout <FEATURE_BRANCH>
 
-Again, as you push your work to your repository on GitHub, the pull-request
-is updated automatically.
+_Using any development environment_
+```
+(2) Modify files as needed.
+```
 
-Also, remember, line (20) is marked with `*`, so must be interpreted for the
-task you are performing.
+_Using the command-line_
+```
+(3) git add <LIST_OF_MODIFIED_FILES>
+(4) git commit -v
+(5) git push
+```
 
+Tips:
+- Keep your commits very small (micro-commits).
+- Make sure each change compiles, runs, and passes all tests before you commit.
+- Write good commit messages.
 
-```bash
-$ git fetch upstream master:master                     (18)
-$ git rebase master                                    (19)
-$ vim file1                                           (*20)
-$ git add .                                            (21)
-$ git rebase --continue                                (22)
-$ git push -f origin master <BRANCH_NAME>              (23)
+## Request feedback
+
+While working on an issue, it is often good to get feedback on your work from the person who reported the issue in the first place (to see if you are meeting their needs) and a maintainer (to see if you are meeting their standards). To do so, mention their names prefixed with an at-sign in a comment on the pull-request and ask them if they take a look at your work and provide some feedback. Make sure they understand that it is a work in progress and you are _not_ ready for the maintainer to merge your pull-request. Getting feedback will reduce the risk of spending a lot of time on something no one wants, and increases the likelihood of making a successful contribution.
+
+## Provide feedback
+
+If you are asked to provide feedback on a pull-request, GitHub lets you view and comment on the changes in a pull-request. You should also download a copy of their feature branch and test it. Probably the easiest way is to clone their fork locally (in a separate location from the clone of your own fork), and checkout the feature branch. Then you can compile, run, test, and further inspect their work, and provide more feedback on the pull-request.
+
+## Respond to feedback
+
+This usually amounts to doing more work: see "Work" above.
+
+## Receive automated feedback
+
+GitHub can provide some automated feedback. If merging your pull-request would result in a lexical conflict, GitHub will indicate that it cannot be merged on the pull-request. In GitHub, a project can also be configured to run automated tests on pull-requests to see if the will pass these tests when merged. This is called continuous integration. If the project has been configured for continuous integration GitHub will display the results of these tests on the pull-request.
+
+## Resolve conflicts using merge
+
+_There are two ways to bring commits from one branch to another: merge and rebase. There is a debate among developers as to which is best. Merge is less likely to cause problems, but may yield a messier history. Rebase may cause problems if you don't know what you are doing, but yields a nicer history. We present merge by default because it is safer, but we also include the commands needed for rebase marked as ALTERNATIVE. Ultimately you will need to use whichever the maintainer prefers. So check the project's contribution guidelines or with one of the project's maintainers._
+
+If GitHub indicates that your pull-request cannot be merged do to conflicts, you will need to update your repositories with the new changes from the project's (1-3), and then merge the new changes in master into your feature branch, resolving any conflicts (4-8), and publish the resolved version to your fork (9).
+
+```
+(1) git checkout master
+(2) git pull --ff-only master
+(3) git push
+(4) git checkout <FEATURE_BRANCH>
+(5) git merge master                ALTERNATIVE: git rebase master
+```
+
+```
+(6) Edit each file that has a conflict and resolve them.
+    See [1] for more information about resolving conflicts.
+    Test that these resolutions actually work.
+    Don't continue until they do.
+```
+
+```
+(7) git add <LIST_OF_FILES_THAT_HAVE_BEEN_RESOLVED>
+(8) git merge --continue            ALTERNATIVE: git rebase --continue
+```
+
+Repeat (...) until the merge is complete and all conflicts have been resolved and the system works.
+
+```
+(9) git push                        ALTERNATIVE: git push -f origin master
 ```
 
 
-**If you are on master, (18) will fail. Now what?**
+## Request a review
 
-If you are on master branch, (18) will fail. Instead replace that line with `git pull upstream master`. This will fetch and merge the changes from upstream's master branch into your current local branch (master in this case). After that, (19-22) are unnecessary. However, don't forget to update master in your origin repository but running (23).
-
-
-**Updating other branches**
-
-After you have updated your master branch (18), if you have other branches, you may need to update them as well. To do that, checkout each branch one at a time (e.g., `git checkout <OTHER_BRANCH_NAME>`) and perform (19-22) for each.
+When you believe your pull-request is ready to be merged into the project's repository, request a maintainer to review your pull-request by mentioning their username prefixed with an at-sign in a comment on the pull-request and indicate that your pull-request is ready for review and merge.
 
 
-## Squash your commits (24-25)
+## Review a pull-request
 
-If you are following best practices, you will make many small commits as you
-develop your idea. Sometimes earlier commits are invalidated/corrected by later
-commits as you refine your solution. Your commit log becomes a diary of how you
-developed your solution. This log is sometimes useful to you as you develop your
-idea, but usually maintainers will ask you to squash your commits (24) into just
-a few (often one) logical commit that implements your feature, or fixes the bug.
-That helps keep the log of the main project cleaner, and more clearly identifies
-which commits are responsible for implementing which features or fixing which
-bugs. Usually you squash when you near completion of your implementation, but a
-maintainer may ask you to squash periodically as you go because it may make it
-easier for them to review your changes.
+A maintainer reviews the pull-request as they did in "Provide feedback". If they think the pull-request is not ready for merging, they should leave feedback on the issue explaining what needs to be done. If they think that the pull-request is not appropriate or is invalid, they may say so and close the pull-request. If they agree that the pull-request is ready, they can either merge the pull-request or squash-and-merge the pull-request. Merging the pull-request will merge all the commits as is into the project's repository. Squash-and-merge will first squash all the commits into one commit and then merge that commit into the project's repository.
 
-In any case, you will periodically squash your commits (24) and push the
-squashed version to your repository on GitHub (25). Again, the pull-request will
-be updated automatically.
 
-To squash commits, we perform an interactive rebase (24). This will put us into
-and editor (vim most likely) with a list of the commits that we are rebasing at
-the top. To squash them into one commit, change the first word in every line
-after the first from `pick` to `squash`. Save and quit. Git will combine all the
-commits into the first and will again put you into an editor to create the final
-commit message for the newly squashed commit. If you have been providing good
-commit messages as you go along, writing a good final commit message should be
-relatively easy.
+## Cleanup your repositories after pull-request was accepted
 
-GitHub has a nice article on interactive rebases [2].
+After a maintainer accepts and merges your pull-request, you need to pull then new commits in the project's repository into yours (1-2), and delete the unneeded feature branch.
 
-```bash
-$ git rebase -i master                                 (24)
-$ git push -f origin <BRANCH_NAME>                     (25)
+_On the command-line_
+```
+(1) git checkout master
+(2) git pull --ff-only master
+(3) git branch -d <FEATURE_BRANCH>
+(4) git push --delete <FEATURE_BRANCH>
 ```
 
+## Abandon a pull-request
 
-## Maintainer accepts your pull-request (26)
+For whatever reason, you may want to give up and abandon your pull-request. When this happens, you need to close your pull-request (1-2) and delete your feature branch (3-5).
 
-After all your hard work, hopefully the maintainer will eventually accept your
-pull-request, which will merge your changes into their master branch.
-
-```bash
-### Maintainer accepts your pull-request               (26)
+_On GitHub_
+```
+(1) Comment on the pull-request indicating why you are
+    abandoning the pull-request.
+(2) Close the pull-request.
 ```
 
-
-## Update your master (27-28)
-
-After the maintainer has accepted your pull-request, your need to update your
-master with the new changes in upstream, which are yours (27-28)! You follow the
-same procedure as in "Keeping your repositories up-to-date", except that you
-don't  need to rebase. That's because your work is already included in master.
-
-```bash
-$ git fetch upstream master:master                     (27)
-$ git push origin master                               (28)
+_On the command-line_
 ```
-
-
-## Delete unneeded branches (29-31)
-
-Now that your work has been accepted in upstream, you can safely delete the
-branches you were working on both in your local and remote repositories (29-31). If you ever abandon your effort before
-a pull-request is accepted, you can also delete your branch; but you'll need
-to use -D (capital D) in (30).
-
-```bash
-$ git checkout master                                  (29)
-$ git branch -d <BRANCH_NAME>                          (30)
-$ git push origin :<BRANCH_NAME>                       (31)
+(3) git checkout master
+(4) git branch -D <FEATURE_BRANCH>
+(5) git push --delete <FEATURE_BRANCH>
 ```
-
-
-## Update your repositories before starting the next fix/feature (32-33)
-
-OK, it's been a month since you worked on the project. Now you're back from the Bahamas and are ready to start working again. However, while you were sunning yourself, others have been hard at work contributing changes to upstream. So before you start working again, you need to update your repositories with changes from upstream. Follow steps in section _Keep your repositories up-to-date (18-23)_ to get this done.
-
-Nice tan. Now get back to work!
 
 
 ## References
