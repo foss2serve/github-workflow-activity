@@ -292,12 +292,3 @@ Don't do this until your pull-request has been merged, or you give up.
     ```
     git push -d origin FEATURE_BRANCH
     ```
-
-
-## Quick reference
-
-GitHub has a nice interface, and is great for humans to click around. However, it makes it more difficult to express the steps to perform in a concise manner. In the quick reference below, I will assume you have [hub](https://hub.github.com/) installed. Hub provides a command-line interface to GitHub, which will allow me to express each step as a command-line operation. Of course, you do not need to have Hub installed to follow this. You just need to interpret and perform the command yourself using GitHub.
-
-
-### Prepare to
-```
