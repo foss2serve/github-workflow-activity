@@ -1,4 +1,4 @@
-# Workflow Reference
+# Contributor Workflow
 
 __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must replace with a real value.
 
