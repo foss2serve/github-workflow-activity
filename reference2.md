@@ -1,5 +1,10 @@
 # Workflow Reference
 
+This document describes a common workflow for contributing to many projects on GitHub.
+
+A quick note before you dive in: ALL_CAPS is a placeholder that you should replace with a real value.
+
+
 ## Overview
 
 ### Prepare to work on a project
@@ -42,7 +47,6 @@ While you are working on your feature/bugfix, others may have contributed to the
 
 
 ## Details
-
 
 ### Fork the project
 
