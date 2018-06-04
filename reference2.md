@@ -13,38 +13,38 @@
 
 1. [Claim an issue](#claim-an-issue)
 2. [Update master](#update-master)
-3. [Create a feature branch](create-a-feature-branch)
-4. [Create a pull-request](create-a-pull-request)
+3. [Create a feature branch](#create-a-feature-branch)
+4. [Create a pull-request](#create-a-pull-request)
 
 
 ### Work on issue
 
-1. [Create and test a change](create-and-test-a-change)
-2. [Commit the change](commit-the-change)
-3. [Push changes to your fork](push-changes-to-your-fork)
+1. [Create and test a change](#create-and-test-a-change)
+2. [Commit the change](#commit-the-change)
+3. [Push changes to your fork](#push-changes-to-your-fork)
 
 
 ### Update a pull-request
 
 While you are working on your feature/bugfix, others may have contributed to the project. These new changes may conflict with your changes. Before a maintainer will accept your changes, they will usually require you to update your pull-request with the latest changes in master, resolve any conflicts, and make sure all the tests pass.
 
-1. [Update master](update-master)
-2. [Merge master into feature branch](merge-master-into-feature-branch)
-3. [Push changes to your fork](push-changes-to-your-fork)
-4. [Request a review](request-a-review)
+1. [Update master](#update-master)
+2. [Merge master into feature branch](#merge-master-into-feature-branch)
+3. [Push changes to your fork](#push-changes-to-your-fork)
+4. [Request a review](#request-a-review)
 
 
 ### Clean up
 
-1. [Update master](update-master)
-2. [Delete the feature branch](delete-the-feature-branch)
-3. [Push changes to your fork](push-changes-to-your-fork)
+1. [Update master](#update-master)
+2. [Delete the feature branch](#delete-the-feature-branch)
+3. [Push changes to your fork](#push-changes-to-your-fork)
 
 
 ## Details
 
 
-### For the project
+### Fork the project
 
 1. Log into GitHub.
 2. On GitHub, navigate to the project on which you want to work.
