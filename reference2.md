@@ -1,9 +1,6 @@
 # Workflow Reference
 
-This document describes a common workflow for contributing to many projects on GitHub.
-
-A quick note before you dive in: ALL_CAPS is a placeholder that you should replace with a real value.
-
+__Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must replace with a real value.
 
 ## Overview
 
@@ -45,6 +42,8 @@ While you are working on your feature/bugfix, others may have contributed to the
 2. [Delete the feature branch](#delete-the-feature-branch)
 3. [Push changes to your fork](#push-changes-to-your-fork)
 
+
+<hr>
 
 ## Details
 
