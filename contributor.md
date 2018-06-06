@@ -1,4 +1,4 @@
-# Contributor Workflow
+# Contributors' Guide
 
 __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must replace with a real value.
 
@@ -26,7 +26,7 @@ __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must 
 3. [Push changes to your fork](#push-changes-to-your-fork)
 
 
-### Update a pull-request
+### Update and resolve conflicts on a pull-request
 
 While you are working on your feature/bugfix, others may have contributed to the project. These new changes may conflict with your changes. Before a maintainer will accept your changes, they will usually require you to update your pull-request with the latest changes in master, resolve any conflicts, and make sure all the tests pass.
 
@@ -52,6 +52,7 @@ While you are working on your feature/bugfix, others may have contributed to the
 1. Log into GitHub.
 2. On GitHub, navigate to the project on which you want to work.
 3. Click __Fork__ in the upper-right corner.
+4. If you are a member of one or more organizations, select your personal account to receive the fork.
 4. You should now be looking at your fork of the project on GitHub.
 
 

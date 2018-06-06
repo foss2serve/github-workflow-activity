@@ -1,4 +1,4 @@
-# Maintainers Guide
+# Maintainers' Guide
 
 This is not intended to be a comprehensive guide as much as it is to point you in the right direction.
 
