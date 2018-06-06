@@ -7,6 +7,7 @@ Form a 2-3 person team. We suggest you work with someone who is uses the same op
 There are two roles: __maintainer__ and __contributor__.
 Each team member play each role at different times while playing out different scenarios. Rotate roles before each scenario, and consider replaying a scenario with team members playing different roles.
 
+Create and share with your team a shared editor (e.g., Google docs, https://pad.riseup.net/, etc.) for notes and answering questions.
 
 ## Overview
 
