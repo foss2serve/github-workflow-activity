@@ -19,7 +19,7 @@ __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must 
 4. [Create a pull-request](#create-a-pull-request)
 
 
-### Work on issue
+### Work on an issue
 
 1. [Create and test a change](#create-and-test-a-change)
 2. [Commit the change](#commit-the-change)
@@ -27,8 +27,6 @@ __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must 
 
 
 ### Update and resolve conflicts on a pull-request
-
-While you are working on your feature/bugfix, others may have contributed to the project. These new changes may conflict with your changes. Before a maintainer will accept your changes, they will usually require you to update your pull-request with the latest changes in master, resolve any conflicts, and make sure all the tests pass.
 
 1. [Update master](#update-master)
 2. [Merge master into feature branch](#merge-master-into-feature-branch)
@@ -42,8 +40,6 @@ While you are working on your feature/bugfix, others may have contributed to the
 2. [Delete the feature branch](#delete-the-feature-branch)
 3. [Push changes to your fork](#push-changes-to-your-fork)
 
-
-<hr>
 
 ## Details
 
