@@ -32,12 +32,8 @@ Your team will play out several scenarios.
 
 2. Assign the role of _maintainer_ to one of your team members.
 
-3. Help the _maintainer_ create an organization on GitHub.
+3. Help the _maintainer_ create an organization on GitHub by following the steps to [Create an Organization](maintainer.md#create-an-organization) in the maintainers' guide.
 
-    - Name it what you like.
-    - Select a free plan.
-    - Invite each of your team members to be an organization member.
-    - Configure member privileges so that organization members can write to repositories. (You are doing this so everyone in your team can play the role of maintainer.)
     - What is the URL to the new organization?
 
         ```
@@ -49,7 +45,7 @@ Your team will play out several scenarios.
     - Have the team member navigate to the organization on GitHub and accept the invitation.
     - Have the team member check for an invitation in their email associated with their GitHub account.
 
-5. Help the _maintainer_ create an official upstream repository in organization
+5. Help the _maintainer_ create an official upstream repository in organization by following  GitHub's directions for [Creating a new repository](https://help.github.com/articles/creating-a-new-repository/)
 
     - Name it `ourfavorites`
     - Optionally add a description
@@ -124,7 +120,7 @@ Congratulations, everyone on your team is ready to contribute to the project and
 2. Assign _contributor_ to another team member.
 3. Help the _contributor_ to follow the steps to [Prepare to work on an issue](contributor.md#prepare-to-work-on-an-issue) and [Work on an issue](contributor.md#work-on-an-issue) to accomplish the following:
     - Create a new file `favorite-foods.txt` in the root of the project that contains a couple of your favorite foods.
-4. Help the _maintainer_ to accept _contributor's_ pull-request on GitHub.
+4. Help the _maintainer_ to accept _contributor's_ pull-request on GitHub by following the instructions to [Review a pull-request](maitainer.md#review-a-pull-request).
 5. Help the _contributor_ to [Clean up](contributor.md#clean-up).
 
 Congratulations, your team has made its first contribution! Celebrate. :clap: :clap:
@@ -159,7 +155,7 @@ Congratulations, your team has made its first contribution! Celebrate. :clap: :c
 2. Assign _maintainer_ to a team member who wasn't maintainer in the previous scenario.
 3. Help the _contributor_ to follow the steps to [Prepare to work on an issue](contributor.md#prepare-to-work-on-an-issue) and [Work on an issue](contributor.md#work-on-an-issue) to accomplish the following:
     - Add a couple of your favorite foods to `favorite-foods.txt`.
-4. Help the _maintainer_ to accept _contributor's_ pull-request on GitHub.
+4. Help the _maintainer_ to accept _contributor's_ pull-request on GitHub by following the instructions to [Review a pull-request](maitainer.md#review-a-pull-request).
 5. Help the _contributor_ to [Clean up](contributor.md#clean-up).
 
 Celebrate again. :clap: :clap:
@@ -278,6 +274,6 @@ If time allows repeat this scenario, with a different team member playing the ro
 
 ## Copyright and Licensing
 
-Copyright 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
+Copyright 2018 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ .

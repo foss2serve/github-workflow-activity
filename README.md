@@ -43,30 +43,28 @@ Participants will be able to:
     - Push a local branch to a remote
   - Issue a pull-request on GitHub
   - Update repository with changes from upstream
-    - Fetch upstream changes into local repository
-    - Rebase feature branch onto upstream development branch
+    - Pull upstream changes into local repository
+    - Merge master into feature branch
     - Resolve conflicts
   - Push changes to remote
-  - Force push changes to remote
-  - Squash commits
 
 ## Contents
 
-- activity.md - Activity participants work through.
-- presentation.pptx - Overview presentation of workflow.
-- reference.md - Detailed description of the workflow.
+- [activity.md](activity.md) - Activity participants work through.
+- [contributor.md](contributor.md) - Contributors' Guide.
+- [maitainer.md](maintainer.md) - Maintainers' Guide.
+- [presentation.pptx](presentation.pptx) - Overview presentation of workflow.
 
 ## Facilitation
 
-- 10 min:
+- 10-20 min:
   - ___Quickly___ presentation.pptx
   - Form teams
-  - Hand out activity.md and reference.md, one hardcopy per team
-- 50-70 min:
+- 60-80 min:
   - Teams work through activity.md
 
-## License
+## Copyright and Licensing
 
-(c) 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
+Copyright 2018 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ .

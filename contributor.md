@@ -292,3 +292,10 @@ Don't do this until your pull-request has been merged, or you give up.
     ```
     git push -d origin FEATURE_BRANCH
     ```
+
+
+## Copyright and Licensing
+
+Copyright 2018 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ .

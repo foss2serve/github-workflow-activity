@@ -1,48 +1,41 @@
 # Maintainers' Guide
 
-This is not intended to be a comprehensive guide as much as it is to point you in the right direction.
+## Create an Organization
 
-Your first stop should be [Open Source Guides](https://opensource.guide/).
+On GitHub
 
-## Create an organization
-
-Organizations are useful when...
-
-* You expect to have more than one related projects.
-* You need to organize developers into teams and manage privileges to different projects.
-* You want everyone, including the maintainer, to contribute to the project using a fork-pull-request workflow (as described in this project).
-
-It's this last reason that we are discussing organizations in this document. Each account can have only a single copy of a project (fork or not). So if the maintainer were to create a project under their personal account, then the maintainer couldn't fork that project into their personal account. Now there is no reason a maintainer has to use a fork-pull-request workflow. But for consistency, we want contributor to follow the same workflow.
-
-To create an organization on GitHub, follow GitHub's instructions for [Creating a new organization from scratch](https://help.github.com/articles/creating-a-new-organization-from-scratch/).
+1. Click the plus in the upper right corner and select __New organization__.
+2. Name it what you like.
+3. Select a free plan.
+4. Invite each of your team members to be an organization member.
+5. Configure member privileges so that organization members can write to repositories. See __Settings__ >> __Member privileges__ >> __Repository permissions__ .
+    - You are doing this so everyone in your team can play the role of maintainer.
 
 
-## Create and configure a project
+## Create a repository in your organization
 
-1. To create a project on GitHub, follow GitHub's instructions for [Creating a new repository](https://help.github.com/articles/creating-a-new-repository/).
+Follow GitHub's directions for [Creating a new repository](https://help.github.com/articles/creating-a-new-repository/)
 
-2. Configure your project under the __Settings__ tab.
 
-3. Checkout your project's community profile under the __Insights__ tab and the __Community__ section. Try to add as many of the recommended documents as you can. Search for templates for these on-line (e.g., README template) to help get you started.
+## Review a pull-request
 
-## Consider using continuous-integration
-
-## Review pull-requests
-
-#### Reject
-
-#### Needs work
-
-#### Accept
-
-## Communicating
-
-* https://github.com/jonschlinkert/maintainers-guide-to-staying-positive
+1. Navigate to the pull-request that needs a review.
+    - If you've been requested to review a pull-request, you should have a notification on GitHub (see the bell in the upper right corner).  Find the notice and click through to the pull-request.
+    - Otherwise, navigate to the repository in the organization and find the pull-request under the __Pull-requests__ tab.
+2. Inspect the changes and make sure the following are true.
+    - [ ] The pull-request links to the issue(s) that this pull-request addresses.
+    - [ ] The changes are alignment with the goals, mission, and priorities of the project.
+    - [ ] The changes address only the issue they link to.
+    - [ ] The changes are reasonable and meet the projects style conventions.
+    - [ ] The changes do not textually conflict with changes in master. (GitHub will tell you if they do)
+    - [ ] The changes pass all the automated tests (N/A for this exercise)
+    - [ ] The changes when merged into master run properly on your machine. (N/A for this exercise)
+3. If any of the above are not true, state the problem and what needs to be done before the pull-request can be merged.
+4. Or, if the PR will never be merged (e.g., the changes are not in alignment with the goals, mission, and priorities of the project), state the issue and close the PR.
+5. If the entire checklist is true then merge the pull-request. For details on the different ways you can merge a pull-request, see GitHub's instructions on [Merging a pull request](https://help.github.com/articles/merging-a-pull-request/).
 
 ## Copyright and Licensing
 
-Copyright 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
+Copyright 2018 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
-International License. To view a copy of this license, visit
-http://creativecommons.org/licenses/by-sa/4.0/ .
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ .
