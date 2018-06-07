@@ -58,7 +58,7 @@ Participants will be able to:
 ## Facilitation
 
 - 10-20 min:
-  - ___Quickly___ presentation.pptx
+  - ___Quickly___ review presentation.pptx with class
 - 60-80 min:
   - Teams work through activity.md
 
