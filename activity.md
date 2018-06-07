@@ -85,7 +85,7 @@ Congratulations, you have an organization with organization members, and an init
 
 1. Assign the role of _contributor_ to a team member.
 2. Help the _contributor_ to complete the steps to [Prepare to work on a project](contributor.md#prepare-to-work-on-a-project) to prepare to work on `ourfavorites`
-3. Repeat this section for each team member, ___one at a time___, including the team member who was initial assigned maintainer.
+3. Repeat this section for each team member, ___one at a time___, including the team member who was initially assigned the role of maintainer.
 
 Congratulations, everyone on your team is ready to contribute to the project and can play the role of maintainer as needed! :clap:
 
