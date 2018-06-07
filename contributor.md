@@ -23,7 +23,7 @@ __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must 
 
 1. [Create and test a change](#create-and-test-a-change)
 2. [Commit the change](#commit-the-change)
-3. [Push changes to your fork](#push-changes-to-your-fork)
+3. [Push changes in feature branch to your fork](#push-changes-in-feature-to-your-fork)
 
 
 ### Update and resolve conflicts on a pull-request
@@ -38,7 +38,7 @@ __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must 
 
 1. [Update master](#update-master)
 2. [Delete the feature branch](#delete-the-feature-branch)
-3. [Push changes to your fork](#push-changes-to-your-fork)
+3. [Push changes in master to your fork](#push-changes-in-master-to-your-fork)
 
 
 ## Details
@@ -226,7 +226,7 @@ To avoid this problem in the future, do one of the following.
     ```
 
 
-### Push changes to your fork
+### Push changes in feature branch to your fork
 
 1. From the command-line, change into your clone's root directory.
 
@@ -234,13 +234,15 @@ To avoid this problem in the future, do one of the following.
     cd CLONES_ROOT
     ```
 
-3. Push you changes in all branches to your fork.
+2. Push you changes in FEATURE_BRANCH to your fork.
 
     ```
-    git push
+    git push origin FEATURE_BRANCH
     ```
 
-Note: this automatically updates the pull-request associated with this branch.
+Notes:
+
+- Any pull-requests associated with a branch are automatically updated when you push your changes to that branch.
 
 
 ### Merge master into feature branch
@@ -291,6 +293,21 @@ Don't do this until your pull-request has been merged, or you give up.
 
     ```
     git push -d origin FEATURE_BRANCH
+    ```
+
+
+### Push changes in master to your fork
+
+1. From the command-line, change into your clone's root directory.
+
+    ```
+    cd CLONES_ROOT
+    ```
+
+2. Push you changes in master to your fork.
+
+    ```
+    git push origin master
     ```
 
 
