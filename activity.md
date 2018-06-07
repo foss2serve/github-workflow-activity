@@ -44,7 +44,7 @@ Your team will play out several scenarios.
     - Have the team member navigate to the organization on GitHub and accept the invitation.
     - Have the team member check for an invitation in their email associated with their GitHub account.
 
-5. Help the _maintainer_ create an official upstream repository in organization by following  GitHub's directions for [Creating a new repository](https://help.github.com/articles/creating-a-new-repository/)
+5. Help the _maintainer_ create an official upstream repository in the organization as specified below by following GitHub's directions for [Creating a new repository](https://help.github.com/articles/creating-a-new-repository/)
 
     - Name it `ourfavorites`
     - Optionally add a description
