@@ -197,6 +197,8 @@ Before you can create a pull-request, you need at least one commit. In these ins
 
 ### Unstaging changes
 
+Depending on which changes you want to unstage, do one of the following.
+
 * Unstage all changes
 
     ```
