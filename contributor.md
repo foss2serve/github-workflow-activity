@@ -288,6 +288,8 @@ Don't do this until your pull-request has been merged, or you give up.
     git checkout master
     git branch -d FEATURE_BRANCH
     ```
+    
+    Note: if the last statement complains that the branch has not been merged, you may be trying to delete the wrong branch or the maintainer may have used a "merge" strategy that was not a merge at all. So first, check that you have the correct branch and that your pull-request for that branch has actually been merged. If so, and you are really, really, REALLY sure, then force the delete with a capital "D": `git branch -D FEATURE_BRANCH`.
 
 3. Delete the feature branch from your fork.
 
