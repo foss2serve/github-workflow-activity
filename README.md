@@ -59,7 +59,6 @@ Participants will be able to:
 
 - 10-20 min:
   - ___Quickly___ presentation.pptx
-  - Form teams
 - 60-80 min:
   - Teams work through activity.md
 
