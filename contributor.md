@@ -234,10 +234,10 @@ To avoid this problem in the future, do one of the following.
     cd CLONES_ROOT
     ```
 
-3. Push you changes in the feature branch to your fork.
+3. Push you changes in all branches to your fork.
 
     ```
-    git push origin FEATURE_BRANCH
+    git push
     ```
 
 Note: this automatically updates the pull-request associated with this branch.
