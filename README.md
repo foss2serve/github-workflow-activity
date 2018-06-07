@@ -37,7 +37,7 @@ Participants will be able to:
   - Prepare a fork and local repository to contribute changes to upstream project on GitHub
     - Fork a project on GitHub
     - Clone a local repository from a remote repository
-    - Create a remote in local repository to a remote repository
+    - Connect local repository to remote repository
   - Prepare a branch to work on a feature or bug
     - Create a local branch
     - Push a local branch to a remote
