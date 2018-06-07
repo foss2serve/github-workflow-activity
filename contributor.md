@@ -89,6 +89,7 @@ Alternatively, if you have an idea but don't see an issue for it, make an issue 
     ```
     git checkout master
     git pull upstream master
+    git push origin master
     ```
 
 
