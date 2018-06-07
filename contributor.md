@@ -89,6 +89,11 @@ Alternatively, if you have an idea but don't see an issue for it, make an issue 
     ```
     git checkout master
     git pull upstream master
+    ```
+
+3. Push the now updated master in your local repository to your fork.
+
+    ```
     git push origin master
     ```
 
