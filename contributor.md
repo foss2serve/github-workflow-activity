@@ -69,11 +69,11 @@ __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must 
 1. Log into GitHub.
 2. On GitHub, navigate to the project on which you are working.
 3. Click the __issues__ tab.
-4. Search for an open issue that interests you.
+4. Search for an open issue that interests you. Alternatively, if you have an idea but don't see an issue for it, create an issue.
 5. Make sure the issue is not assigned to anyone, and no-one else has claimed it (check comments).
 6. Claim the issue by leaving a comment that you are working on it.
 
-Alternatively, if you have an idea but don't see an issue for it, make an issue and claim it.
+
 
 
 ### Update master
