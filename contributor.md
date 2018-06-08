@@ -23,7 +23,7 @@ __Note:__ In the instructions below __ALL_CAPS__ is a placeholder that you must 
 
 1. [Create and test a change](#create-and-test-a-change)
 2. [Commit the change](#commit-the-change)
-3. [Push changes in feature branch to your fork](#push-changes-in-feature-to-your-fork)
+3. [Push changes in feature branch to your fork](#push-changes-in-feature-branch-to-your-fork)
 
 
 ### Update and resolve conflicts on a pull-request
