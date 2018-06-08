@@ -115,8 +115,8 @@ Congratulations, everyone on your team is ready to contribute to the project and
 
 ## Scenario 1: First contribution
 
-1. Assign _maintainer_ to one team member
-2. Assign _contributor_ to another team member.
+1. Assign the role of _maintainer_ to one team member
+2. Assign the role of _contributor_ to another team member.
 3. Help the _contributor_ to follow the steps to [Prepare to work on an issue](contributor.md#prepare-to-work-on-an-issue) and [Work on an issue](contributor.md#work-on-an-issue) to accomplish the following:
     - Create a new file `favorite-foods.txt` in the root of the project that contains a couple of your favorite foods.
 4. Help the _maintainer_ to accept _contributor's_ pull-request on GitHub by following the instructions to [Review a pull-request](maitainer.md#review-a-pull-request).
