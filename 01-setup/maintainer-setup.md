@@ -30,14 +30,14 @@ Congratulations! You have created an organization that can hold multiple reposit
 
 ## C. Create a project repository
 
-Assumptions
+__Assumptions__
 
 * You are signed into GitHub
 * You have just created an organization
 * You are on your newly created organization's home page
 * Your organization is empty; i.e., it does not have any repositories
 
-On GitHub (you must be signed-in)
+__On GitHub__
 
 1. Click the big green __Create a new repository__ button
 2. Name the repository `ourfavorites`
@@ -73,7 +73,9 @@ Congratulations! You have created your team's first repository.
 
     ```
 
+## E. STOP: Check in with your facilitator
 
-## E. Next steps
+
+## F. Next steps
 
 Next, complete the [Contributor's Setup](contributor-setup.md)
