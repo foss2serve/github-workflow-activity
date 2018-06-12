@@ -1,13 +1,6 @@
-# Contributor's Setup
+# Prepare to work on a project
 
-## A. Get organized
-
-1. Assign the _contributor_ role to one of your team members. They will carry out the actions described in this activity on behalf of the team.
-2. Assign the _navigator_ role to one of your team members. They will have these instructions open on their computer, keep track of which step the _maintainer_ is on, read each instruction out loud, and help the _maintainer_ to complete the instructions.
-3. Assign the _recorder_ role to one of your team members (if you have only two, give this role to the _navigator_). They will have the team's notepad open on their computer, take notes for the team in this pad as needed, help the _maintainer_ to complete the instructions.
-
-
-## B. Accept the invitation to join the organization
+## Accept the invitation to join the organization
 
 If you played the role of maintainer in the last activity, skip this step.
 
@@ -26,7 +19,7 @@ Or
 * Navigate to the team's organization, view the invitation, and accept the invitation.
 
 
-## C. Fork the upstream repository
+## Fork the upstream repository
 
 __Assumptions__
 
@@ -41,7 +34,7 @@ __Instructions__
 
 Congratulations, you have forked a personal copy of the team's repository!
 
-## D. Clone your fork
+## Clone your fork
 
 __Assumptions__
 
@@ -71,7 +64,7 @@ __Instructions__
 
 Congratulations, you have cloned your fork to your local machine!
 
-## E. Add upstream remote
+## Add an upstream remote
 
 __Assumptions__
 
@@ -95,28 +88,3 @@ __Instructions__
     ```
 
 Congratulations, your local clone now knows where to find the upstream repository (i.e., your team's repository).
-
-## F. Repeat this activity for each other person in your team
-
-
-## G. Reflect
-
-1. When performing this section, what challenges did you encounter?
-
-    ```
-
-    ```
-
-2. How did you overcome those challenges?
-
-    ```
-
-    ```
-
-3. Is there anything that your team would like clarification about? What questions does your team have about the steps or the concepts in this section?
-
-    ```
-
-    ```
-
-### STOP: Check in with your facilitator

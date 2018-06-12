@@ -1,13 +1,6 @@
-# Maintainer's Setup
+# Create an organization and a repository
 
-## A. Get organized
-
-1. Assign the _maintainer_ role to one of your team members. They will carry out the actions described in this activity on behalf of the team.
-2. Assign the _navigator_ role to one of your team members. They will have these instructions open on their computer, keep track of which step the _maintainer_ is on, read each instruction out loud, and help the _maintainer_ to complete the instructions.
-3. Assign the _recorder_ role to one of your team members (if you have only two, give this role to the _navigator_). They will have the team's notepad open on their computer, take notes for the team in this pad as needed, help the _maintainer_ to complete the instructions.
-
-
-## B. Create an organization
+## Create an organization
 
 __Assumptions__
 
@@ -28,7 +21,7 @@ On GitHub (you must be signed-in)
 
 Congratulations! You have created an organization that can hold multiple repositories for your team. More importantly for this activity, this setup allows any of your team members to play the role of _maintainer_ or _contributor_ using a fork-pull-request based workflow (also known as [GitHub-flow](https://guides.github.com/introduction/flow/) workflow).
 
-## C. Create a project repository
+## Create a repository
 
 __Assumptions__
 
@@ -50,31 +43,3 @@ __On GitHub__
 9. Help your recorder to make a note of the URL of the repository's homepage.
 
 Congratulations! You have created your team's first repository.
-
-
-## D. Reflect
-
-1. When performing this section, what challenges did you encounter?
-
-    ```
-
-    ```
-
-2. How did you overcome those challenges?
-
-    ```
-
-    ```
-
-3. Is there anything that your team would like clarification about? What questions does your team have about the steps or the concepts in this section?
-
-    ```
-
-    ```
-
-## E. STOP: Check in with your facilitator
-
-
-## F. Next steps
-
-Next, complete the [Contributor's Setup](contributor-setup.md)

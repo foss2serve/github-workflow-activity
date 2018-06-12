@@ -1,6 +1,8 @@
-# Prepare to work on an issue
+# Contribution Workflow
 
-## Claim an issue
+## Prepare to work on an issue
+
+### Claim an issue
 
 __Assumptions__
 
@@ -22,7 +24,7 @@ Congratulations, you now have a claimed issue for the work you plan to do.
 Issues provide a way for developers to collaborate. They are used for many purposes including proposing and discuss ideas; prioritizing, sizing, and valuing requests; clarify requirements; verify bugs; and generally to coordinate development efforts. When looking for something to work on, use the issue tracker to find issues that the community (and the maintainers in particular) are interested in. Otherwise you may be working on something that will never be accepted.
 
 
-## Create a feature branch and a pull request (PR) for your work
+### Create a feature branch and a pull request (PR) for your work
 
 __Assumptions__
 
@@ -72,7 +74,7 @@ __Instructions__
 Congratulations! You have created a feature branch to hold the changes you will make while working on the issue. You have also opened a PR for this feature branch back to the upstream repository. This will allow others to follow your progress as you work. Also, the PR is a place where developers can discuss designs and implementations for solutions to issues.
 
 
-# Work on the issue
+## Work on the issue
 
 __Assumptions__
 
@@ -93,7 +95,7 @@ __Instructions__
     ```
     git status
     ```
-5. If there are files staged that shouldn't be (e.g., anything that can be generated from source, personal/private configurations or data, etc.) complete [Unstage changes](). When you are done, return to step 1 in [Commit the change]().
+5. If there are files staged that shouldn't be (e.g., anything that can be generated from source, personal/private configurations or data, etc.) complete [Unstage changes](#unstage-changes). When you are done, return to and continue from step 3 above.
 6. Commit changes and provide a good commit messages.
     ```
     git commit
@@ -105,15 +107,18 @@ __Instructions__
 
 Congratulations, you have made a change, committed it to your feature branch, and pushed it up to your fork, which automatically updates the PR associated with your feature branch!
 
-Continue to [Work on the issue]() until you either give up or think your work is ready to be merged into the upstream repository. If you are giving up, close the pull-request on GitHub and then complete [Clean up](). If you think your work is ready to be upstreamed, continue to the next section.
+* If you are not done working on the issue, return to [Work on the issue](#work-on-the-issue).
+* If you give up, close the PR on GitHub and then go to [Clean up](#clean-up).
+* If you think your work is ready to be upstreamed, continue to the next section.
 
 
-# Collaborate to upstream your work
+## Collaborate to upstream your work
 
-## Update your PR with changes in upstream
+### Update your PR with changes in upstream
 
 __Assumptions__
 
+* You are the contributor.
 * You have a terminal opened and positioned to the root of your local clone.
 * You have a feature branch and a corresponding PR opened back to the upstream repository.
 
@@ -131,7 +136,7 @@ __Instructions__
     git merge master
     ```
 3. If there are conflicts, follow GitHub's instructions for [Resolving a merge conflict using the command-line](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). Be sure to test your changes before committing them. Return here when you are done.
-4. Test the merged copy. If there are any problems, return to [Work on the issue]() and continue from there.
+4. Test the merged copy. If there are any problems, return to [Work on the issue](#work-on-the-issue) and continue from there.
 5. Update your fork and the PR
     ```
     git push origin FEATURE_BRANCH
@@ -140,10 +145,11 @@ __Instructions__
 Congratulations, your PR is now up-to-date with the latest changes from upstream. Time to request a review.
 
 
-## Request a review
+### Request a review
 
 __Assumptions__
 
+* You are the contributor.
 * You have an open PR.
 * You are signed into GitHub.
 
@@ -153,7 +159,7 @@ __Instructions__
 2. Make a comment. In that comment at-mention one of your team-members who will play the role of _matainer_ (e.g., `@person`), and ask them to please review your work.
 
 
-## Maintainer reviews the PR
+### Maintainer reviews the PR
 
 __Assumptions__
 
@@ -164,12 +170,13 @@ __Instructions__
 
 1. Navigate to the PR that needs reviewing on GitHub.
 2. Review the changes and make sure they are up to the project's standards. Many projects have style guidelines and acceptance criteria such as "must pass all tests" and "contributions must include unit tests". The maintainer often must merge the contributor's feature branch into master in a local clone and confirm that it works as expected. As this activity is about training contributors, we will not go into the details about how to be a maintainer here.
-3. If the maintainer decides that the PR is not needed (e.g., it is no longer relevant or maybe it is outside the scope of the project), the maintainer closes the PR and leaves a note as to the reason they closed the PR.
-4. If the maintainer is satisfied, they select a merge strategy (choose "squash and merge") and then click __Merge pull request__.
-5. If the maintainer decides that the PR needs work before it can be merged, they leave a comment indicating what needs to be done.
+3. After reviewing the PR, do one of the following (refer to the instructions in the [activity](README.md) for which you should pick)
+    * Reject the PR by closing it and leaving a message of why you are closing it.
+    * Accept the PR by merging it into master: choose "squash and merge" strategy for now and click __Merge pull request__.
+    * Request modifications to the PR if it needs work by leaving a message in the PR indicating what needs to be done.
 
 
-## Contributor decides what to do next
+### Contributor decides what to do next
 
 __Assumptions__
 
@@ -177,15 +184,16 @@ __Assumptions__
 
 __Instructions__
 
-* If the _maintainer_ merged your PR into the master branch in the team repository, go to [Clean up]().
-* If the _maintainer_ closed the PR without merging (maybe because it's obsolete, or not a feature the maintainer wants, etc.), go to [Clean up]().
-* If the _maintainer_ asked for adjustments to your work, return to [Create and test a small change]() and make the changes.
+* If the _maintainer_ merged your PR into the master branch in the team repository, go to [Clean up](#clean-up).
+* If the _maintainer_ closed the PR without merging (maybe because it's obsolete, or not a feature the maintainer wants, etc.), go to [Clean up](#clean-up).
+* If the _maintainer_ asked for adjustments to your work, return to [Work on the issue](#work-on-the-issue) and make the requested changes.
 
 
-## Clean up
+### Clean up
 
 __Assumptions__
 
+* You are the contributor.
 * You have a terminal opened in the root of your local clone.
 
 __Instructions__
@@ -209,10 +217,11 @@ __Instructions__
 Congratulations, having cleaned up your repositories you have completed this workflow!
 
 
-## Unstage changes
+### Unstage changes
 
 __Assumptions__
 
+* You are the contributor.
 * You have files staged that you do not want committed.
 
 __Instructions__
