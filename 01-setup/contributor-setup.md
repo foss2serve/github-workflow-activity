@@ -19,7 +19,7 @@ __Instructions__
 
 Either
 
-* Find the invitation in your email, view the invitation, and accept the invitation
+* Find the invitation in your email, view the invitation, and accept the invitation.
 
 Or
 
@@ -94,7 +94,7 @@ __Instructions__
     git remote -v
     ```
 
-Congratulations, your local clone now knows where to upstream (i.e., your team's repository).
+Congratulations, your local clone now knows where to find the upstream repository (i.e., your team's repository).
 
 ## F. Repeat this activity for each other person in your team
 

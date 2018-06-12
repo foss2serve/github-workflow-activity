@@ -11,7 +11,7 @@
 
 __Assumptions__
 
-* You are signed into GitHub
+* You are signed into GitHub.
 
 __Instructions__
 
@@ -32,23 +32,22 @@ Congratulations! You have created an organization that can hold multiple reposit
 
 __Assumptions__
 
-* You are signed into GitHub
-* You have just created an organization
-* You are on your newly created organization's home page
-* Your organization is empty; i.e., it does not have any repositories
+* You are signed into GitHub.
+* You have just created an organization.
+* You are on your newly created organization's home page.
+* Your organization is empty; i.e., it does not have any repositories.
 
 __On GitHub__
 
-1. Click the big green __Create a new repository__ button
-2. Name the repository `ourfavorites`
-3. Optionally add a description
-4. Make it public
-5. Initialize it with a README
-6. Optionally add a .gitignore (not necessary for this activity)
-7. Add an open source license (unless you have a strong opinion, for now choose __GNU Public License v3.0__)
-8. What is the URL to your official upstream repository?
-9. Click the big green __Create repository__ button
-10. Help your recorder to make a note of the URL of the repository's homepage.
+1. Click the big green __Create a new repository__ button.
+2. Name the repository `ourfavorites`.
+3. Optionally add a description.
+4. Make it public.
+5. Initialize it with a README.
+6. Optionally add a .gitignore (not necessary for this activity).
+7. Add an open source license (unless you have a strong opinion, for now choose __GNU Public License v3.0__).
+8. Click the big green __Create repository__ button
+9. Help your recorder to make a note of the URL of the repository's homepage.
 
 Congratulations! You have created your team's first repository.
 
