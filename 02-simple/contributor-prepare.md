@@ -36,9 +36,10 @@ __Instructions__
     ```
     git checkout master
     ```
-2. Also you should make sure that you start your branch based on the most recent copy of master. So pull changes from upstream (your team's repository on GitHub). In this activity, there shouldn't be any new changes in upstream, but this is a good habit to get into. So let's practice.
+2. Also you should always make sure that you start your branch based on the most recent copy of master. So let's pull changes from upstream (your team's repository on GitHub). In this activity, there shouldn't be any new changes in upstream, but this is a good habit to get into. So let's practice. At the same time, let's make sure your fork has those changes too.
     ```
     git pull upstream master
+    git push origin master
     ```
 2. Create the feature branch for the issue. Name it something short but meaningful and relevant to the issue. Replace BRANCH_NAME in the command below with your chosen name.
     ```
