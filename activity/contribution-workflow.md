@@ -95,7 +95,7 @@ __Instructions__
     ```
     git status
     ```
-5. If there are files staged that shouldn't be (e.g., anything that can be generated from source, personal/private configurations or data, etc.) complete [Unstage changes](#unstage-changes). When you are done, return to and continue from step 3 above.
+5. If there are files staged that shouldn't be (e.g., anything that can be generated from source, personal/private configurations or data, etc.) complete [Unstage changes](#unstage-changes). When you are done, return here and continue.
 6. Commit changes and provide a good commit messages.
     ```
     git commit
@@ -253,5 +253,3 @@ To avoid this problem in the future, do one of the following.
     vim .gitignore      # use your favorite editor
     git add .
     ```
-
-Return to and complete __Commit the change__ above.

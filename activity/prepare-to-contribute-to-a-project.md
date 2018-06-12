@@ -1,4 +1,4 @@
-# Prepare to work on a project
+# Prepare to contribute to a project
 
 ## Accept the invitation to join the organization
 
