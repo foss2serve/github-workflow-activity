@@ -95,7 +95,7 @@ __Instructions__
     git status
     ```
 5. If there are files staged that shouldn't be (e.g., anything that can be generated from source, personal/private configurations or data, etc.) complete [Unstage changes](#unstage-changes). When you are done, return here and continue.
-6. Commit changes and provide a good commit messages.
+6. Commit changes and provide a good commit message.
     ```
     git commit
     ```
