@@ -11,7 +11,7 @@ We suggest you work with someone who is uses the same operating system as you.
     - [ ] Has git installed on their laptop.
     - [ ] Is logged into their GitHub account on their computer.
 
-2. Create and share with your team a shared editor (e.g., Google docs, https://pad.riseup.net/, etc.) for notes and answering questions.
+2. Assign the role of _recorder_ to one of your team members. _Recorder_, create and share with your team a shared editor (e.g., Google docs, https://pad.riseup.net/, etc.) for notes and answering questions. (Rotate the role of _recorder_ as necessary during the activity.)
 
 3. Assign the role of _maintainer_ to one of your team members and help them [Create an organization and a repository](create-an-organization-and-a-repository.md) for the team. Return here when you are done.
 
