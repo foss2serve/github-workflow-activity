@@ -2,7 +2,7 @@
 
 ## Prepare to work on an issue
 
-### Claim an issue
+### Find or create, and claim an issue
 
 __Assumptions__
 
