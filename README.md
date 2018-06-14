@@ -1,6 +1,6 @@
 # GitHub Workflow Activity
 
-v2.0.0
+v3.0.0-dev
 
 Participants, in teams of 2-3, work through a series of scenarios to learn how to contribute to open-source projects using a common workflow.
 
@@ -50,19 +50,16 @@ Participants will be able to:
     - Resolve conflicts
   - Push changes to remote
 
-## Contents
-
-- [activity.md](activity.md) - Activity participants work through.
-- [contributor.md](contributor.md) - Contributors' Guide.
-- [maitainer.md](maintainer.md) - Maintainers' Guide.
-- [presentation.pptx](presentation.pptx) - Overview presentation of workflow.
-
 ## Facilitation
 
 - 10-20 min:
-  - ___Quickly___ review presentation.pptx with class
+  - Quickly review [activity/presentation.pptx](activity/presentation.pptx) with the class.
 - 60-80 min:
-  - Teams work through activity.md
+  - Teams work through [activity/README.md](activity/README.md).
+
+## Contributing to this project
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing Guide](CONTRIBUTING.md).
 
 ## Copyright and Licensing
 
