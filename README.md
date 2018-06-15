@@ -1,6 +1,6 @@
 # GitHub Workflow Activity
 
-v3.0.0-dev
+v3.0.0
 
 Participants, in teams of 2-3, work through a series of scenarios to learn how to contribute to open-source projects using a common workflow.
 
