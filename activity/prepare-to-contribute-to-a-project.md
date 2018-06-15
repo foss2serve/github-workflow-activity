@@ -59,7 +59,7 @@ __Instructions__
     ```
 6. Change into the root of your clone.
     ```
-    cd ourfavorites
+    cd our-favorites
     ```
 
 Congratulations, you have cloned your fork to your local machine!
@@ -86,5 +86,12 @@ __Instructions__
     ```
     git remote -v
     ```
-
+    You should see something like this (with YOUR_ACCOUNT and TEAM_ORGANIZATION replaced with actual values).
+    ```
+    $ git remote -v
+    origin    https://github.com/YOUR_ACCOUNT/our-favorites.git (fetch)
+    origin    https://github.com/YOUR_ACCOUNT/our-favorites.git (push)
+    upstream  https://github.com/TEAM_ORGANIZATION/our-favorites.git (fetch)
+    upstream  https://github.com/TEAM_ORGANIZATION/our-favorites.git (push)
+    ```
 Congratulations, your local clone now knows where to find the upstream repository (i.e., your team's repository).
