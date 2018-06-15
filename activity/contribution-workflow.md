@@ -165,6 +165,9 @@ __Instructions__
 
 1. Navigate to your PR on the team's repository on GitHub.
 2. Make a comment. In that comment at-mention one of your team-members who will play the role of _maintainer_ (e.g., `@person`), and ask them to please review your work.
+3. Click __comment__ (___do not click___ "close and comment").
+
+ Closing a PR means that it no longer needs to be merged into upstream. As a _contributor_, you would only do this if you are giving up on your effort. More often a PR is closed by the _maintainer_ either when they merge the PR into master or if they decide the PR should never be merged into master (i.e., the PR is no longer relevant, the PR is outside the scope of the project, the PR has been abandoned, etc.).
 
 
 ### Maintainer reviews the PR
