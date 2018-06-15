@@ -93,8 +93,8 @@ __Assumptions__
 
 __Instructions__
 
-1. Make a small change using your standard development environment (e.g., Atom.io, Notepad++, Eclipse, etc.).
-2. Test the change to make sure it works. Again, use whatever development tools you like.
+1. Make a small change to the files in your local clone that gets you closer to accomplishing one of your goals (see the activity instructions to remind yourself of what your goals are in this scenario). Use any tools you would normally use to work on a project: e.g., editors such as Atom.io or Notepad++, development environments such as Eclipse, etc.
+2. Test the change to make sure it works. In the activity this probably means reopening the file or files and making sure they have the correct changes. In a real project this means writing and running unit tests, running all the automated tests, manually running the code to see if it still works, running style checkers, etc.
 3. Stage your changes.
     ```
     git add .
