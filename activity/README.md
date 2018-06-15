@@ -11,7 +11,7 @@ We suggest you work with someone who is uses the same operating system as you.
     - [ ] Has git installed on their laptop.
     - [ ] Is logged into their GitHub account on their computer.
 
-2. Assign the role of _recorder_ to one of your team members. _Recorder_, create and share with your team a shared editor (e.g., Google docs, https://pad.riseup.net/, etc.) for notes and answering questions. (Rotate the role of _recorder_ as necessary during the activity.)
+2. Create and share with your team a shared editor (e.g., Google docs, https://pad.riseup.net/, etc.) for notes.
 
 3. Assign the role of _maintainer_ to one of your team members and help them [Create an organization and a repository](create-an-organization-and-a-repository.md) for the team. Return here when you are done.
 
@@ -33,27 +33,6 @@ maintainer, when asked to review the PR, request an alteration (e.g., "no lettuc
     * Sort the foods in `favorite-foods.txt` in ascending order.
     * After each food in `favorite-foods.txt` add one or more labels to categorize the food (e.g., `[vegetable]`, `[fruit]`, `[meat]`, etc.)
     * (if you have three members) Reformat the list of foods in `favorite-foods.txt` so that every item has a bullet in front (e.g., `*`). If they already have a bullet, change the bullet to a different style of bullet (e.g., `+` or `-`).
-
-
-## Reflect
-
-1. When performing this section, what challenges did you encounter?
-
-    ```
-
-    ```
-
-2. How did you overcome those challenges?
-
-    ```
-
-    ```
-
-3. Is there anything that your team would like clarification about? What questions does your team have about the steps or the concepts in this section?
-
-    ```
-
-    ```
 
 
 ## Copyright and Licensing

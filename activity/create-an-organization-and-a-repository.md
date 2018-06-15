@@ -15,7 +15,7 @@ On GitHub (you must be signed-in)
 3. Select a free plan.
 4. Use the email associated with your GitHub account as the billing address. (Since you chose the free plan you won't get billed.)
 5. Finish the creation of the organization.
-6. Help your recorder to make a note of the URL of the organization's homepage.
+6. In your shared editor, make a note of the URL of the organization's homepage.
 7. Invite each of your team members to be an organization member.
 8. Configure member privileges so that organization members can write to repositories. See __Settings__ >> __Member privileges__ >> __Repository permissions__ .
 
@@ -40,6 +40,6 @@ __On GitHub__
 6. Optionally add a .gitignore (not necessary for this activity).
 7. Add an open source license (unless you have a strong opinion, for now choose __GNU Public License v3.0__).
 8. Click the big green __Create repository__ button
-9. Help your recorder to make a note of the URL of the repository's homepage.
+9. In your shared editor, make a note of the URL of the repository's homepage.
 
 Congratulations! You have created your team's first repository.

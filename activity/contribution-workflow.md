@@ -17,7 +17,7 @@ __Instructions__
 4. If no reasonable issue exists for what you want to do, create one.
 5. If someone is assigned to the ticket or has claimed it by leaving a comment that they are working on it, move on, or maybe leave a comment asking about the progress and express interest in working on the issue.
 6. If no-one is working on the issue assign yourself to the ticket (or leave a comment that you are working on it).
-7. Help your recorder note the issue number of the issue you will be working on.
+7. In your shared editor, note the issue number of the issue you will be working on.
 
 Congratulations, you now have a claimed issue for the work you plan to do.
 
