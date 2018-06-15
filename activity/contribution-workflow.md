@@ -2,6 +2,14 @@
 
 ## Prepare to work on an issue
 
+In this section you will complete three tasks: find or create and claim an issue, create a feature branch, and open a pull-request back to upstream. All of this you will do before actually working on the feature. Let's quickly discuss why you are doing these tasks before you do them.
+
+Finding or creating and issue and then claiming it helps prevent developers from working on the same thing at the same time. Also issue provide a place for the community to propose and ideas, prioritize issues, size issues, clarify requirements, and verify bugs. So although this step may feel artificial during the activity, it's important to get in the habit of interacting with the community through the issue tracker before doing a significant amount of work.
+
+A branch as a personal copy of the project within a repository. You will create a branch for every issue you work on. This will allow you to work on more than one feature at same time, allowing you to quickly switch between them, while keep their changes separate until you are ready to merge them. This applies to the master branch as well. The master branch contains the official, current copy of the project. Using feature branches allows master to evolve while you work on your features without interfering with your development; and then, when you are ready, you can update your efforts with changes from master. Again, in this activity you might feel branches are artificial and useless. However, when you are working on more significant issues and with more developers branches become invaluable. So we want to practice the full workflow with these more simplistic tasks so that we know what we are doing when things get more complicated.
+
+Last, you will open an empty pull-request back to the organization's repository (upstream). Pull-requests provide a place for developers to discuss their solution design and implementation. By opening a pull-request immediately, you make your efforts visible from the very beginning, allowing others to track progress and provide useful feedback. Getting feedback early may help you avoid pitfalls and will more likely lead to an acceptable solution sooner and with less effort than if you wait until you are "done" to get feedback.
+
 ### Find or create, and claim an issue
 
 __Assumptions__
@@ -20,9 +28,6 @@ __Instructions__
 7. In your shared editor, note the issue number of the issue you will be working on.
 
 Congratulations, you now have a claimed issue for the work you plan to do.
-
-Issues provide a way for developers to collaborate. They are used for many purposes including proposing and discuss ideas; prioritizing, sizing, and valuing requests; clarify requirements; verify bugs; and generally to coordinate development efforts. When looking for something to work on, use the issue tracker to find issues that the community (and the maintainers in particular) are interested in. Otherwise you may be working on something that will never be accepted.
-
 
 ### Create a feature branch and a pull request (PR) for your work
 
