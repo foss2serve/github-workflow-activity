@@ -183,7 +183,7 @@ __Instructions__
 2. Review the changes and make sure they are up to the project's standards. Many projects have style guidelines and acceptance criteria such as "must pass all tests" and "contributions must include unit tests". The maintainer often must merge the contributor's feature branch into master in a local clone and confirm that it works as expected. As this activity is about training contributors, we will not go into the details about how to be a maintainer here.
 3. After reviewing the PR, do one of the following (refer to the instructions in the [activity](README.md) for which you should pick)
     * Reject the PR by closing it and leaving a message of why you are closing it.
-    * Accept the PR by merging it into master: choose "squash and merge" strategy for now and click __Merge pull request__.
+    * Accept the PR by merging it into master: choose "squash and merge" strategy for now and click __Merge pull request__ and then __Confirm__.
     * Request modifications to the PR if it needs work by leaving a message in the PR indicating what needs to be done.
 
 
