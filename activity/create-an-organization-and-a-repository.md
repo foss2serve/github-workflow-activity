@@ -15,8 +15,8 @@ On GitHub (you must be signed-in)
 3. Use the email associated with your GitHub account as the billing address. (Since you chose the free plan you won't get billed.)
 4. Select a free plan.
 5. Finish the creation of the organization.
-6. In your shared editor, make a note of the URL of the organization's homepage.
-7. Invite each of your team members to be an organization member.
+6. Invite each of your team members to be an organization member.
+7. In your shared editor, make a note of the URL of the organization's homepage.
 8. Configure member privileges so that organization members can write to repositories. See __Settings__ >> __Member privileges__ >> __Repository permissions__ .
 
 Congratulations! You have created an organization that can hold multiple repositories for your team. More importantly for this activity, this setup allows any of your team members to play the role of _maintainer_ or _contributor_ using a fork-pull-request based workflow (also known as [GitHub-flow](https://guides.github.com/introduction/flow/) workflow).
