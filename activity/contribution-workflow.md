@@ -65,15 +65,19 @@ __Instructions__
     ```
     git push -u origin BRANCH_NAME
     ```
-6. On GitHub, navigate to your fork.
-7. Open a PR by clicking __New pull request__ (subtle grey button in the middle) or __Compare & pull request__ (big green button on the right).
+6. On GitHub, navigate to _your fork_.
+7. Open a PR by either clicking
+    * __New pull request__ (subtle grey button in the middle) and then the __compare across forks__ link.
+    or
+    * __Compare & pull request__ (big green button on the right)
 8. Make sure that
-    * The base repository is set to your team's repository under the organization
-    * The base branch is set to master
-    * The compare repository is set to your fork of the team's repository
-    * The compare branch is set to your feature branch (e.g., BRANCH_NAME)
-9. Briefly describe what you plan to do, and mention the issue that this PR is addressing. Mention the issue by putting its issue number in the body using this format: `#i` where `i` is the issue number. When GitHub sees this, it cross-references the issue and the PR allowing folks to easily to get from one to the other.
-10. Click the __Create pull request__ button.
+    * __base fork__ is set to your team's repository under the organization
+    * __base__ is set to master
+    * __head fork__ is set to your fork of the team's repository
+    * __compare branch__ is set to your feature branch (e.g., BRANCH_NAME)
+9. Click the __Create pull request__ button.
+10. Briefly describe what you plan to do, and mention the issue that this PR is addressing. Mention the issue by putting its issue number in the body using this format: `Closes #i` where `i` is the issue number. When GitHub sees this, it cross-references the issue and the PR allowing folks to easily to get from one to the other. Also, when the PR is merged into master, it will close all issues mentioned this way!
+11. Click __Create pull request__.
 
 Congratulations! You have created a feature branch to hold the changes you will make while working on the issue. You have also opened a PR for this feature branch back to the upstream repository. This will allow others to follow your progress as you work. Also, the PR is a place where developers can discuss designs and implementations for solutions to issues.
 
