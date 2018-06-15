@@ -12,8 +12,8 @@ On GitHub (you must be signed-in)
 
 1. Click the plus `+` in the upper right corner and select __New organization__.
 2. Name it what you like.
-3. Select a free plan.
-4. Use the email associated with your GitHub account as the billing address. (Since you chose the free plan you won't get billed.)
+3. Use the email associated with your GitHub account as the billing address. (Since you chose the free plan you won't get billed.)
+4. Select a free plan.
 5. Finish the creation of the organization.
 6. In your shared editor, make a note of the URL of the organization's homepage.
 7. Invite each of your team members to be an organization member.
