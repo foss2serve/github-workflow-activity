@@ -34,7 +34,7 @@ __On GitHub__
 
 1. Click the __Repository__ tab to view the repositories of the organization.
 1. Click the big green __Create a new repository__ button. (If you already have a repository in this organization, click the green __New__ button.)
-2. Name the repository `ourfavorites`.
+2. Name the repository `our-favorites`.
 3. Optionally add a description.
 4. Make it public.
 5. Initialize it with a README.
