@@ -192,6 +192,7 @@ __Instructions__
 __Assumptions__
 
 * You are the contributor.
+* You have received an automated email notifying you of the _maintainer's_ decision.
 
 __Instructions__
 
