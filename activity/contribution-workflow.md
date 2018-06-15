@@ -164,7 +164,7 @@ __Assumptions__
 __Instructions__
 
 1. Navigate to your PR on the team's repository on GitHub.
-2. Make a comment. In that comment at-mention one of your team-members who will play the role of _matainer_ (e.g., `@person`), and ask them to please review your work.
+2. Make a comment. In that comment at-mention one of your team-members who will play the role of _maintainer_ (e.g., `@person`), and ask them to please review your work.
 
 
 ### Maintainer reviews the PR
