@@ -17,7 +17,7 @@ We suggest you work with someone who is uses the same operating system as you.
 
 4. Assign the role of _contributor_ to one of your team members and help them [Prepare to contribute to a project](prepare-to-contribute-to-a-project.md). Return here when you are done.
 
-5. Assign the role of _contributor_ to each of your team members (even the one who was assigned the role of _maintainer_ before) and have them [Prepare to contribute to a project](prepare-to-contribute-to-a-project.md). If you were the contributor in the previous step, help your team to complete the preparation. Return here when you are done.
+5. If you were the _contributor_ in the previous step, help your other team members play the role of _contributor_ and complete the previous step. If you have a team of three, have the other two do this __in parallel__.
 
 6. Assign the role of _maintainer_ to one of your team members, and the role of _contributor_ to another. Help them follow the [Contribution Workflow](contribution-workflow.md) to create a new file `favorite-foods.txt` in the root of the project that contains a couple of their favorite foods. Maintainer, when asked to review the PR, accept and merge the PR.
 
