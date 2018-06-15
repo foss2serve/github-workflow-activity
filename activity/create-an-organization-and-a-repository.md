@@ -27,12 +27,13 @@ __Assumptions__
 
 * You are signed into GitHub.
 * You have just created an organization.
-* You are on your newly created organization's home page.
+* You are viewing your organization on GitHub.
 * Your organization is empty; i.e., it does not have any repositories.
 
 __On GitHub__
 
-1. Click the big green __Create a new repository__ button.
+1. Click the __Repository__ tab to view the repositories of the organization.
+1. Click the big green __Create a new repository__ button. (If you already have a repository in this organization, click the green __New__ button.)
 2. Name the repository `ourfavorites`.
 3. Optionally add a description.
 4. Make it public.
