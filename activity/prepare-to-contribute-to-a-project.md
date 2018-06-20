@@ -40,7 +40,7 @@ __Assumptions__
 
 * You have git installed and configured on your machine.
 * You are viewing your personal fork of the team's repository on GitHub.
-* Your team's repository is named ourfavorites.
+* Your team's repository is named our-favorites.
 
 __Instructions__
 
